@@ -1,22 +1,24 @@
 {
   "files": {
-    "main.css": "/FlowersForOffices/static/css/main.1b766610.chunk.css",
-    "main.js": "/FlowersForOffices/static/js/main.0dcf5a56.chunk.js",
-    "main.js.map": "/FlowersForOffices/static/js/main.0dcf5a56.chunk.js.map",
+    "main.css": "/FlowersForOffices/static/css/main.c337fb4e.chunk.css",
+    "main.js": "/FlowersForOffices/static/js/main.fc8102af.chunk.js",
+    "main.js.map": "/FlowersForOffices/static/js/main.fc8102af.chunk.js.map",
     "runtime-main.js": "/FlowersForOffices/static/js/runtime-main.de571a11.js",
     "runtime-main.js.map": "/FlowersForOffices/static/js/runtime-main.de571a11.js.map",
-    "static/js/2.f25562bc.chunk.js": "/FlowersForOffices/static/js/2.f25562bc.chunk.js",
-    "static/js/2.f25562bc.chunk.js.map": "/FlowersForOffices/static/js/2.f25562bc.chunk.js.map",
+    "static/js/2.a11d5cb8.chunk.js": "/FlowersForOffices/static/js/2.a11d5cb8.chunk.js",
+    "static/js/2.a11d5cb8.chunk.js.map": "/FlowersForOffices/static/js/2.a11d5cb8.chunk.js.map",
     "index.html": "/FlowersForOffices/index.html",
-    "precache-manifest.20e1bce0bb7db42b86186ff30dbf24c9.js": "/FlowersForOffices/precache-manifest.20e1bce0bb7db42b86186ff30dbf24c9.js",
+    "precache-manifest.4ac049a719f4d4cff2ff5f267eca756c.js": "/FlowersForOffices/precache-manifest.4ac049a719f4d4cff2ff5f267eca756c.js",
     "service-worker.js": "/FlowersForOffices/service-worker.js",
-    "static/css/main.1b766610.chunk.css.map": "/FlowersForOffices/static/css/main.1b766610.chunk.css.map",
-    "static/js/2.f25562bc.chunk.js.LICENSE": "/FlowersForOffices/static/js/2.f25562bc.chunk.js.LICENSE"
+    "static/css/main.c337fb4e.chunk.css.map": "/FlowersForOffices/static/css/main.c337fb4e.chunk.css.map",
+    "static/js/2.a11d5cb8.chunk.js.LICENSE": "/FlowersForOffices/static/js/2.a11d5cb8.chunk.js.LICENSE",
+    "static/media/s1.jpg": "/FlowersForOffices/static/media/s1.7128ee22.jpg",
+    "static/media/s2.jpg": "/FlowersForOffices/static/media/s2.0dbd3ad0.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.de571a11.js",
-    "static/js/2.f25562bc.chunk.js",
-    "static/css/main.1b766610.chunk.css",
-    "static/js/main.0dcf5a56.chunk.js"
+    "static/js/2.a11d5cb8.chunk.js",
+    "static/css/main.c337fb4e.chunk.css",
+    "static/js/main.fc8102af.chunk.js"
   ]
 }
