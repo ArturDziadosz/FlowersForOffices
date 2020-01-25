@@ -1,0 +1,13 @@
+header {
+  height: 120px;
+
+  .row {
+    align-items: center;
+
+    .header__logo {
+      width: 225px;
+      height: 90px;
+      background-image: url("../assets/logo.png");
+    }
+  }
+}

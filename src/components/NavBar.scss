@@ -1,0 +1,48 @@
+@import "../styles/settings/variables";
+@import "../styles/settings/animation";
+
+.nav {
+  height: 100%;
+
+  .nav__list {
+    height: 100%;
+    display: flex;
+
+    .nav__list__elem {
+      padding: 0 15px;
+      font-size: 13px;
+      color: $colorText;
+      line-height: 120px;
+      position: relative;
+      cursor: pointer;
+
+      &:hover {
+        color: $colorTextB;
+        &::after {
+          content: "";
+          display: block;
+          position: absolute;
+          width: 0;
+          height: 1px;
+          top: 60%;
+          left: 5%;
+          animation: navBarLine 500ms forwards ease-in-out;
+          background-color: $colorBackgroundB;
+        }
+      }
+
+      &:nth-of-type(2) {
+        .fas {
+          transition: 500ms;
+        }
+
+        &:hover {
+          .fas {
+            transition: 500ms;
+            transform: rotate(180deg);
+          }
+        }
+      }
+    }
+  }
+}
