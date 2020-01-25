@@ -1,4 +1,5 @@
 .heroBanner {
+  position: relative;
 
   .heroBanner__img {
     display: block;
@@ -6,6 +7,16 @@
     margin-right: auto;
     max-width: 100%;
     height: auto;
-    animation: heroBannerImg 3s;
+    position: absolute;
+  }
+
+  .heroBanner__img--first {
+    animation: heroBannerImg 5s infinite alternate-reverse cubic-bezier(1,0,0,1);
+  }
+
+  .heroBanner__img--second {
+    animation: heroBannerImg 5s infinite alternate cubic-bezier(1,0,0,1);
   }
 }
+
+
