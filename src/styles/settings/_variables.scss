@@ -1,0 +1,59 @@
+// Colors
+$colorText: #3C3C3C;
+$colorTextFaded: #737373;
+$colorTextAlt: #5E5322;
+$colorBackground: #f0f1f1;
+$colorBackgroundAlt: #FAD648;
+
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=swap&subset=latin-ext');
+$font-base: 'Open Sans', sans-serif;
+@import url('https://fonts.googleapis.com/css?family=Merriweather:300,300i,400,400i&display=swap&subset=latin-ext');
+$font-alt: 'Merriweather', serif;
+$fontSize: 10px;
+$lineHeight: 1.8em;
+
+//Mixins
+@mixin hoverBtn {
+  cursor: pointer;
+  position: relative;
+  z-index: 1;
+
+  &::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: $colorText;
+    height: 0;
+    width: 100%;
+    transition: height .5s;
+    z-index: -1;
+  }
+
+  &:hover {
+    color: #fff;
+    transition: all .2s;
+
+    &::after {
+      height: 100%;
+      transition: height .5s;
+
+    }
+  }
+
+  &:active {
+    top: 2px;
+    transition: all .1s;
+  }
+}
+
+@mixin decoration {
+  background-image: url("../../assets/Decoration.svg");
+  min-width: 253px;
+  min-height: 33px;
+  margin: 25px 0 35px;
+}
+
+
