@@ -1,6 +1,7 @@
 @import 'settings/reset';
 @import 'settings/variables';
 @import 'settings/grid';
+@import 'settings/animation';
 
 * {
   box-sizing: border-box;
@@ -8,9 +9,10 @@
 
 body {
   font-size: $fontSize;
-  font-family: $font-base;
+  font-family: $fontBase;
   line-height: $lineHeight;
-  background-color: #fff;
+  font-weight: $fontWeight;
+  background-color: $colorBackgroundW;
 }
 
 a {
