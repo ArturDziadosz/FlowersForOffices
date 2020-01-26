@@ -13,9 +13,32 @@ body {
   line-height: $lineHeight;
   font-weight: $fontWeight;
   background-color: $colorBackgroundW;
+  overflow-x: hidden;
 }
 
 a {
   text-decoration: none;
 }
 
+.start {
+  position: absolute;
+  z-index: 99999;
+  width: 100vw;
+  height: 100vh;
+  background-color: $colorBackgroundB;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: heroBannerImg 500ms 2500ms forwards reverse ease-out;
+
+  .logo {
+    background-image: url("../assets/logo.png");
+    background-size: cover;
+    background-position: center;
+    width: 40%;
+    height: 25%;
+    background-color: white;
+    opacity: 0;
+    animation: heroBannerImg 2000ms 500ms forwards linear;
+  }
+}

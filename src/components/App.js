@@ -12,6 +12,9 @@ class App extends Component {
   render() {
     return (
       <>
+        <div className="start">
+          <div className="logo" />
+        </div>
         <Header/>
         <Hero/>
         <main>
