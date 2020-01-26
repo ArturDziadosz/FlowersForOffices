@@ -1,24 +1,26 @@
 {
   "files": {
-    "main.css": "/FlowersForOffices/static/css/main.c337fb4e.chunk.css",
-    "main.js": "/FlowersForOffices/static/js/main.fc8102af.chunk.js",
-    "main.js.map": "/FlowersForOffices/static/js/main.fc8102af.chunk.js.map",
+    "main.css": "/FlowersForOffices/static/css/main.aec90ca2.chunk.css",
+    "main.js": "/FlowersForOffices/static/js/main.2c35ff68.chunk.js",
+    "main.js.map": "/FlowersForOffices/static/js/main.2c35ff68.chunk.js.map",
     "runtime-main.js": "/FlowersForOffices/static/js/runtime-main.de571a11.js",
     "runtime-main.js.map": "/FlowersForOffices/static/js/runtime-main.de571a11.js.map",
-    "static/js/2.a11d5cb8.chunk.js": "/FlowersForOffices/static/js/2.a11d5cb8.chunk.js",
-    "static/js/2.a11d5cb8.chunk.js.map": "/FlowersForOffices/static/js/2.a11d5cb8.chunk.js.map",
+    "static/js/2.197962db.chunk.js": "/FlowersForOffices/static/js/2.197962db.chunk.js",
+    "static/js/2.197962db.chunk.js.map": "/FlowersForOffices/static/js/2.197962db.chunk.js.map",
     "index.html": "/FlowersForOffices/index.html",
-    "precache-manifest.4ac049a719f4d4cff2ff5f267eca756c.js": "/FlowersForOffices/precache-manifest.4ac049a719f4d4cff2ff5f267eca756c.js",
+    "precache-manifest.11d15ef77115b28a5b21b7d19c16b447.js": "/FlowersForOffices/precache-manifest.11d15ef77115b28a5b21b7d19c16b447.js",
     "service-worker.js": "/FlowersForOffices/service-worker.js",
-    "static/css/main.c337fb4e.chunk.css.map": "/FlowersForOffices/static/css/main.c337fb4e.chunk.css.map",
-    "static/js/2.a11d5cb8.chunk.js.LICENSE": "/FlowersForOffices/static/js/2.a11d5cb8.chunk.js.LICENSE",
-    "static/media/s1.jpg": "/FlowersForOffices/static/media/s1.7128ee22.jpg",
-    "static/media/s2.jpg": "/FlowersForOffices/static/media/s2.0dbd3ad0.jpg"
+    "static/css/main.aec90ca2.chunk.css.map": "/FlowersForOffices/static/css/main.aec90ca2.chunk.css.map",
+    "static/js/2.197962db.chunk.js.LICENSE": "/FlowersForOffices/static/js/2.197962db.chunk.js.LICENSE",
+    "static/media/Realizations.scss": "/FlowersForOffices/static/media/iza-kuba-620x300.680be8dc.jpg",
+    "static/media/Quote.scss": "/FlowersForOffices/static/media/photobox1.e9fba2fa.jpg",
+    "static/media/Offer.scss": "/FlowersForOffices/static/media/photobox3.a4e2ba7f.jpg",
+    "static/media/Hero.scss": "/FlowersForOffices/static/media/s2.0dbd3ad0.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.de571a11.js",
-    "static/js/2.a11d5cb8.chunk.js",
-    "static/css/main.c337fb4e.chunk.css",
-    "static/js/main.fc8102af.chunk.js"
+    "static/js/2.197962db.chunk.js",
+    "static/css/main.aec90ca2.chunk.css",
+    "static/js/main.2c35ff68.chunk.js"
   ]
 }
