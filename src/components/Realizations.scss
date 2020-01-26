@@ -1,0 +1,57 @@
+@import '../styles/settings/variables';
+
+article.realizations {
+  margin-bottom: 20px;
+
+  .row {
+    justify-content: center;
+    align-items: center;
+
+    .realizations__title {
+      margin-bottom: 20px;
+      font-size: 30px;
+      line-height: 36px;
+      font-weight: 300;
+      color: $colorTextB;
+    }
+
+    .realizations__project {
+      width: 50%;
+      height: 300px;
+      margin: 15px;
+      border-radius: 10px;
+      background-size: cover;
+      background-position: center;
+      box-shadow: 1px 1px 10px 3px $colorText;
+
+      &:hover {
+        cursor: pointer;
+        background-size: 150%;
+        transition: all 300ms;
+      }
+
+    }
+
+    &:nth-of-type(2) {
+      .realizations__project {
+        &:first-of-type {
+          background-image: url("../assets/Ceremonia-4-z-133-620x300.jpg")
+        }
+        &:last-of-type {
+          background-image: url("../assets/Iza-i-Jakub-620x300.jpg");
+        }
+      }
+    }
+
+    &:nth-of-type(3) {
+      .realizations__project {
+        &:first-of-type {
+          background-image: url("../assets/iza-kuba-620x300.jpg")
+        }
+        &:last-of-type {
+          background-image: url("../assets/Iza-i-Jakub-620x300.jpg");
+        }
+      }
+    }
+  }
+}

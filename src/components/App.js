@@ -9,11 +9,30 @@ import Contact from "./Contact";
 import PrivacyPolicy from "./PrivacyPolicy";
 
 class App extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      intro: true
+    }
+  }
+
+  componentDidMount() {
+    this.timeoutID = setTimeout(() => {
+      this.setState({
+        intro: false
+      })
+    }, 3000);
+  }
+
+  componentWillUnmount() {
+    clearTimeout(this.timeoutID);
+  }
+
   render() {
     return (
       <>
-        <div className="start">
-          <div className="logo" />
+        <div className="start" style={this.state.intro ? {display: "flex"} : {display: "none"}}>
+          <div className="logo"/>
         </div>
         <Header/>
         <Hero/>
