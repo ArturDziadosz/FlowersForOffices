@@ -11,12 +11,28 @@ class Realizations extends Component {
               <p className="realizations__title">REALIZACJE</p>
             </div>
             <div className="row">
-              <div className="realizations__project" />
-              <div className="realizations__project" />
+              <div className="realizations__box">
+                <div className="realizations__project">
+                  <i className="fas fa-search"/>
+                </div>
+              </div>
+              <div className="realizations__box">
+                <div className="realizations__project">
+                  <i className="fas fa-search"/>
+                </div>
+              </div>
             </div>
             <div className="row">
-              <div className="realizations__project" />
-              <div className="realizations__project" />
+              <div className="realizations__box">
+                <div className="realizations__project">
+                  <i className="fas fa-search"/>
+                </div>
+              </div>
+              <div className="realizations__box">
+                <div className="realizations__project">
+                  <i className="fas fa-search"/>
+                </div>
+              </div>
             </div>
           </section>
         </article>

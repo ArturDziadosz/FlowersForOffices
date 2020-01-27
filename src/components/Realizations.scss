@@ -2,6 +2,7 @@
 
 article.realizations {
   margin-bottom: 20px;
+  margin-top: -30px;
 
   .row {
     justify-content: center;
@@ -15,41 +16,77 @@ article.realizations {
       color: $colorTextB;
     }
 
-    .realizations__project {
+    .realizations__box {
       width: 50%;
       height: 300px;
       margin: 15px;
-      border-radius: 10px;
-      background-size: cover;
-      background-position: center;
+      border-radius: 12px;
       box-shadow: 1px 1px 10px 3px $colorText;
+      overflow: hidden;
 
-      &:hover {
-        cursor: pointer;
-        background-size: 150%;
-        transition: all 300ms;
+      .realizations__project {
+        width: 100%;
+        height: 100%;
+        border-radius: 10px;
+        background-size: cover;
+        background-position: center;
+        transition: transform 500ms;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        &:hover {
+          cursor: pointer;
+          transform: scale(1.2);
+          transition: transform 500ms;
+
+          .fas {
+            display: block;
+          }
+        }
+
+        .fas {
+          color: $colorTextW;
+          font-size: 30px;
+          line-height: 50px;
+          background-color: rgba(0,0,0,.5);
+          width: 50px;
+          height: 50px;
+          border-radius: 50%;
+          text-align: center;
+          display: none;
+        }
       }
-
     }
 
     &:nth-of-type(2) {
-      .realizations__project {
+      .realizations__box {
         &:first-of-type {
-          background-image: url("../assets/Ceremonia-4-z-133-620x300.jpg")
+          .realizations__project {
+            background-image: url("../assets/Ceremonia-4-z-133-620x300.jpg")
+          }
         }
+
         &:last-of-type {
-          background-image: url("../assets/Iza-i-Jakub-620x300.jpg");
+          .realizations__project {
+            background-image: url("../assets/Iza-i-Jakub-620x300.jpg");
+          }
         }
       }
     }
 
     &:nth-of-type(3) {
-      .realizations__project {
-        &:first-of-type {
-          background-image: url("../assets/iza-kuba-620x300.jpg")
+      .realizations__box {
+        .realizations__project {
+          &:first-of-type {
+            background-image: url("../assets/iza-kuba-620x300.jpg")
+          }
         }
+
         &:last-of-type {
-          background-image: url("../assets/Iza-i-Jakub-620x300.jpg");
+          .realizations__project {
+            background-image: url("../assets/Iza-i-Jakub-620x300.jpg");
+          }
         }
       }
     }
