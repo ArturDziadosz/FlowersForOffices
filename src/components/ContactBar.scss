@@ -1,0 +1,47 @@
+@import '../styles/settings/variables';
+
+section.contactBar {
+  background-color: $colorText;
+  padding: 15px;
+  .row {
+    color: $colorTextW;
+    p {
+      font-size: 17px;
+      line-height: 25px;
+      i {
+        width: 18px;
+        height: 18px;
+        text-align: center;
+        margin-right: 10px;
+      }
+
+      a {
+        color: $colorTextW;
+        &:hover {
+          text-decoration: underline;
+        }
+
+      }
+
+      .fas {
+        &:last-of-type {
+          margin-left: 30px;
+        }
+      }
+
+      .fab {
+        transform: scale(1.5);
+        transition: transform 300ms;
+        cursor: pointer;
+
+        &:hover {
+          transform: scale(1.7);
+          transition: transform 300ms;
+        }
+        &:last-of-type {
+          margin-left: 30px;
+        }
+      }
+    }
+  }
+}
