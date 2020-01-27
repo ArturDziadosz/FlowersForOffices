@@ -43,6 +43,7 @@ class App extends Component {
           <Realizations/>
         </main>
         <Contact/>
+        <PrivacyPolicy />
         {/*        <Home4Steps name={"fourSteps"}/>*/}
       </>
     )
