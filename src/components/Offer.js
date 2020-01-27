@@ -5,7 +5,7 @@ class Offer extends Component {
   render() {
     return (
       <>
-        <article className="container">
+        <article className="container" name={"offer"}>
           <div className="row">
             <section className="col-4">
               <div className="article__img" />

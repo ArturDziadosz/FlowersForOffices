@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import ContactBar from "./ContactBar";
 import Header from "./Header";
 import Hero from "./Hero";
 import Offer from "./Offer";
@@ -34,17 +35,17 @@ class App extends Component {
         <div className="start" style={this.state.intro ? {display: "flex"} : {display: "none"}}>
           <div className="logo"/>
         </div>
+        <ContactBar />
         <Header/>
         <Hero/>
         <main>
-          <Offer/>
+          <Offer name={"offer"}/>
           <Quote/>
           <About/>
-          <Realizations/>
+          <Realizations name={"realization"}/>
         </main>
-        <Contact/>
+        <Contact name={"contact"}/>
         <PrivacyPolicy />
-        {/*        <Home4Steps name={"fourSteps"}/>*/}
       </>
     )
   }

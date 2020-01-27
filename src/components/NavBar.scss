@@ -2,10 +2,8 @@
 @import "../styles/settings/animation";
 
 .nav {
-  height: 100%;
 
   .nav__list {
-    height: 100%;
     display: flex;
 
     .nav__list__elem {
@@ -43,6 +41,10 @@
           }
         }
       }
+    }
+
+    .nav__list__elem--short {
+      line-height: 60px;
     }
   }
 }

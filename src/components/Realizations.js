@@ -5,7 +5,7 @@ class Realizations extends Component {
   render() {
     return (
       <>
-        <article className="realizations">
+        <article className="realizations" name={"realization"}>
           <section className="container">
             <div className="row">
               <p className="realizations__title">REALIZACJE</p>
