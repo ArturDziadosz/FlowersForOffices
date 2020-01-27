@@ -13,11 +13,11 @@ class Contact extends Component {
               <div className="contact__mediaBox">
                 <div className="contact__mediaBox__standardMedia">
                   <p className="standardMedia"><i className="fas fa-mobile-alt"/>+ 48 123 456 789 </p>
-                  <p className="standardMedia"><i className="fas fa-envelope"/>kwiatostan.biuro@gmail.com</p>
+                  <p className="standardMedia"><i className="fas fa-envelope"/><a href={"mailto:kwiatostan.biuro@gmail.com"}>kwiatostan.biuro@gmail.com</a></p>
                 </div>
                 <div className="contact__mediaBox__socialMedia">
-                  <p className="socialMedia"><i className="fab fa-facebook-square"/></p>
-                  <p className="socialMedia"><i className="fab fa-instagram"/></p>
+                  <p className="socialMedia"><a href={"https://www.facebook.com/kwiatostanpracowniaflorystyczna"} target={"_blank"}><i className="fab fa-facebook-square"/></a></p>
+                  <p className="socialMedia"><a href={"https://www.instagram.com/kwiatostan_pracownia/"} target={"_blank"}><i className="fab fa-instagram"/></a></p>
                 </div>
               </div>
             </div>

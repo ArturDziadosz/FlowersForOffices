@@ -25,6 +25,10 @@ footer.container {
         &:hover {
           text-decoration: underline;
         }
+
+        a {
+          color: $colorText;
+        }
       }
     }
   }

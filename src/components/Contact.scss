@@ -45,6 +45,16 @@
             line-height: 33px;
             text-align: center;
             width: 50px;
+
+          }
+
+          a {
+            color: $colorTextW;
+            cursor: pointer;
+
+            &:hover {
+              text-decoration: underline;
+            }
           }
         }
       }
