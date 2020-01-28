@@ -17,7 +17,7 @@ article.realizations {
     }
 
     .realizations__box {
-      width: 50%;
+      flex: 1 1 50%;
       height: 300px;
       margin: 15px;
       border-radius: 12px;
@@ -49,7 +49,7 @@ article.realizations {
           color: $colorTextW;
           font-size: 30px;
           line-height: 50px;
-          background-color: rgba(0,0,0,.5);
+          background-color: rgba(0, 0, 0, .5);
           width: 50px;
           height: 50px;
           border-radius: 50%;
@@ -63,7 +63,7 @@ article.realizations {
       .realizations__box {
         &:first-of-type {
           .realizations__project {
-            background-image: url("../assets/Ceremonia-4-z-133-620x300.jpg")
+            background-image: url("../assets/Ceremonia-4-z-133-620x300.jpg");
           }
         }
 
@@ -88,6 +88,26 @@ article.realizations {
             background-image: url("../assets/Iza-i-Jakub-620x300.jpg");
           }
         }
+
+
+        &:first-of-type {
+          flex: 0 1 100%;
+        }
+      }
+    }
+
+    &:nth-of-type(4) {
+      .realizations__box {
+        .realizations__project {
+          &:first-of-type {
+            background-image: url("../assets/iza-kuba-620x300.jpg")
+          }
+        }
+
+        &:last-of-type {
+          flex: 0 1 100%;
+        }
+
       }
     }
   }
