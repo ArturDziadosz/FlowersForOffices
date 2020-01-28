@@ -38,9 +38,10 @@ footer.container {
   article.privacyPolicy {
     display: none;
     position: absolute;
-    top: -87vh;
+    top: -100vh;
+    margin-top: 130px;
     width: 90%;
-    height: 86vh;
+    height: calc(100vh - 140px);
     left: 5%;
     z-index: 11;
     background-color: $colorBackgroundW;

@@ -5,12 +5,14 @@ article.container {
 
   .row {
     .col-4 {
+      flex: 0 0 30%;
       padding: 10px 15px;
       margin: 0 15px;
       border-radius: 10px;
       box-shadow: 1px 1px 10px $colorText;
       transition: 500ms;
       cursor: pointer;
+      position: relative;
 
       &:hover {
         transform: scale(1.05);

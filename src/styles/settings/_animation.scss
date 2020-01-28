@@ -19,10 +19,23 @@
 
 @keyframes privacyPolicy {
   0% {
-    top: 87vh;
+    top: 100vh;
   }
 
   100% {
-    top: -87vh;
+    top: -100vh;
+  }
+}
+
+@keyframes offerFlex {
+  0% {
+    flex: 0 0 30%;
+    height: auto;
+  }
+
+  100% {
+    flex: 0 0 100%;
+    height: calc(70vh - 100px);
+    transform: scale(1);
   }
 }
