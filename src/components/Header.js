@@ -31,7 +31,7 @@ class Header extends Component {
   render() {
     return (
       <>
-        <header className={this.state.topPosition ? "" : "container--short"}>
+        <header className={this.state.topPosition ? "header" : "header container--short"}>
           <section className={this.state.topPosition ? "container" : "container container--short"}>
             <div className="row">
               <div className="header__logo"/>

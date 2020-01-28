@@ -14,6 +14,11 @@
       position: relative;
       cursor: pointer;
 
+      a {
+        display: block;
+        line-height: 120px;
+      }
+
       &:hover {
         color: $colorTextB;
         &::after {
@@ -41,10 +46,52 @@
           }
         }
       }
+
+      .nav__list__more {
+        position: absolute;
+        top: 120px;
+        left: 0;
+        display: none;
+
+        .nav__list__more__child {
+          height: 60px;
+          width: 300px;
+          background-color: $colorBackgroundB;
+          color: $colorTextW;
+          padding: 15px;
+          line-height: 30px;
+          transition: background-color 600ms;
+
+          &:hover {
+            background-color: $colorBackgroundAlt;
+            transition: background-color 600ms;
+          }
+        }
+      }
+
     }
 
     .nav__list__elem--short {
       line-height: 60px;
+
+      &:hover {
+
+        &::after {
+          top: 65%;
+        }
+      }
+
+      a {
+        line-height: 60px;
+      }
+
+      .nav__list__more {
+        top: 60px;
+
+        .nav__list__more__child {
+
+        }
+      }
     }
   }
 }
