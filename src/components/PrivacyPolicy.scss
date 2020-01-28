@@ -1,6 +1,8 @@
 @import '../styles/settings/variables';
 
 footer.container {
+  position: relative;
+
   .row {
     .footer__text {
       color: $colorText;
@@ -32,4 +34,62 @@ footer.container {
       }
     }
   }
+
+  article.privacyPolicy {
+    display: none;
+    position: absolute;
+    top: -87vh;
+    width: 90%;
+    height: 86vh;
+    left: 5%;
+    z-index: 11;
+    background-color: $colorBackgroundW;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px 3px $colorText;
+    padding: 20px 50px;
+    overflow: auto;
+    animation: privacyPolicy 1500ms;
+
+    .privacyPolicy__title {
+      font-size: 30px;
+      font-weight: 300;
+      line-height: 36px;
+      margin-bottom: 20px;
+    }
+
+    .privacyPolicy__subtitle, .privacyPolicy__text {
+      font-weight: bold;
+      color: $colorText;
+    }
+
+    .privacyPolicy__subtext {
+      color: $colorText;
+      padding: 5px 20px;
+    }
+
+    .privacyPolicy__exit {
+      position: absolute;
+      right: 20px;
+      top: 20px;
+      border-radius: 50%;
+      display: block;
+      width: 30px;
+      height: 30px;
+      background-color: $colorBackgroundB;
+      color: $colorTextW;
+      font-weight: bold;
+      border: none;
+      transition: background-color 600ms;
+      cursor: pointer;
+
+      &:hover {
+        &:hover {
+          background-color: $colorBackgroundAlt;
+          transition: background-color 600ms;
+        }
+      }
+    }
+  }
+
 }

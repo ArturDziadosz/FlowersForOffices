@@ -30,20 +30,27 @@
       z-index: 10;
     }
 
-    .quoteButton {
-      color: $colorTextW;
-      background-color: $colorBackgroundB;
-      margin: 45px auto 0;
-      padding: 17px 35px;
+    .linkButton {
       z-index: 10;
-      cursor: pointer;
-      transition: background-color 600ms;
-      border-radius: 10px;
 
-      &:hover {
-        background-color: $colorBackgroundAlt;
+      .quoteButton {
+        color: $colorTextW;
+        background-color: $colorBackgroundB;
+        margin: 45px auto 0;
+        padding: 17px 35px;
+        z-index: 10;
+        cursor: pointer;
         transition: background-color 600ms;
+        border-radius: 10px;
+        width: 230px;
+        text-align: center;
+
+        &:hover {
+          background-color: $colorBackgroundAlt;
+          transition: background-color 600ms;
+        }
       }
     }
+
   }
 }

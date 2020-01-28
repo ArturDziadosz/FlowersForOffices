@@ -16,3 +16,13 @@
     opacity: 1;
   }
 }
+
+@keyframes privacyPolicy {
+  0% {
+    top: 87vh;
+  }
+
+  100% {
+    top: -87vh;
+  }
+}
