@@ -39,3 +39,15 @@
     transform: scale(1);
   }
 }
+
+@keyframes fading {
+  0% {
+    position: static;
+    z-index: 1;
+  }
+
+  100% {
+    position: absolute;
+    z-index: -1;
+  }
+}
