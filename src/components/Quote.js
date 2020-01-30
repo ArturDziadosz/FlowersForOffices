@@ -13,7 +13,7 @@ class Quote extends Component {
               </p>
               <p className="quote__author">HELLEN KELLER
               </p>
-              <Link to={"realization"} spy={true} smooth={true} duration={1000} offset={-200} className={"linkButton"}><div className="quoteButton">ZOBACZ REALIZACJE</div></Link>
+              <Link to={"realization"} spy={true} smooth={true} duration={1000} offset={-80} className={"linkButton"}><div className="quoteButton">ZOBACZ REALIZACJE</div></Link>
             </div>
           </section>
         </article>

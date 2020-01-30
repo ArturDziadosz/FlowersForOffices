@@ -37,7 +37,7 @@ class Offer extends Component {
         <article className="container" name={"offer"}>
           <div className="row">
 
-            <Link to={"offer"} spy={true} smooth={true} duration={1000} offset={-60} className="col-4"
+            <Link to={"offer"} spy={true} smooth={true} duration={1000} offset={-200} className="col-4"
                   onClick={this.handleBigger} id={"firstOffer"}>
 
               <div className="article__img"/>
@@ -45,7 +45,7 @@ class Offer extends Component {
               <p className="article__text">Oferujemy niepowtarzalne aranżacje kwiatowe, pasujące do charakteru i
                 okoliczności przyjęcia. Zadbamy, aby ten dzień był dla Was niezapomniany.</p>
             </Link>
-            <Link to={"offer"} spy={true} smooth={true} duration={1000} offset={-60} className="col-4"
+            <Link to={"offer"} spy={true} smooth={true} duration={1000} offset={-200} className="col-4"
                   onClick={this.handleBigger} id={"secondOffer"}>
 
               <div className="article__img"/>
@@ -54,7 +54,7 @@ class Offer extends Component {
                 niezapomniane dekoracje w najważniejszym momencie życia.</p>
 
             </Link>
-            <Link to={"offer"} spy={true} smooth={true} duration={1000} offset={-60} className="col-4"
+            <Link to={"offer"} spy={true} smooth={true} duration={1000} offset={-200} className="col-4"
                   onClick={this.handleBigger} id={"thirdOffer"}>
               <div className="article__img"/>
               <h3 className="article__title">FLORYSTYKA DLA DOMU I FIRMY</h3>
