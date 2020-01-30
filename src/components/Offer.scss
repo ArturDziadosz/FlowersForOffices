@@ -2,10 +2,13 @@
 
 article.container {
   padding: 50px 0;
+  overflow-x: hidden;
 
   .row {
     .col-4 {
       flex: 0 0 30%;
+      height: 420px;
+      overflow: hidden;
       padding: 10px 15px;
       margin: 0 15px;
       border-radius: 10px;
@@ -51,16 +54,37 @@ article.container {
         padding-bottom: 5px;
       }
 
+      .article__box {
+        display: flex;
+        justify-content: space-between;
+        padding: 0 20px;
+
+        div {
+          flex: 0 0 45%;
+        }
+
+        .article__text {
+          text-align: justify;
+        }
+
+        .article__text--list {
+          list-style: disc;
+          padding-left: 30px;
+        }
+
+      }
+
       &:first-of-type {
         .article__img {
           background-image: url("../assets/photobox1.jpg");
         }
-/*        .article__title {
-          &::after {
-            width: 70%;
-            left: 15%;
-          }
-        }*/
+
+        /*        .article__title {
+                  &::after {
+                    width: 70%;
+                    left: 15%;
+                  }
+                }*/
       }
 
       &:nth-of-type(2) {

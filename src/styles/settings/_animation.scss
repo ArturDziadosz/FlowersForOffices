@@ -29,13 +29,11 @@
 
 @keyframes offerFlex {
   0% {
-    flex: 0 0 30%;
-    height: auto;
   }
 
   100% {
-    flex: 0 0 100%;
-    height: calc(70vh - 100px);
+    flex: 0 0 75%;
+    height: auto;
     transform: scale(1);
   }
 }
