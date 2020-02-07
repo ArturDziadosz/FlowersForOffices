@@ -1,9 +1,30 @@
 import React, {Component} from 'react';
 import Carousel from 'nuka-carousel';
+import Gallery from 'react-grid-gallery';
 import photo1 from '../assets/photobox1.jpg';
 import photo2 from '../assets/photobox2.jpg';
 import photo3 from '../assets/photobox3.jpg';
 import './Realizations.scss';
+
+const IMAGES =
+  [{
+    src: photo1,
+    thumbnail: photo1
+    // thumbnailWidth: 320,
+    // thumbnailHeight: 174
+  },
+    {
+      src: photo2,
+      thumbnail: photo2,
+      thumbnailWidth: 320,
+      thumbnailHeight: 320
+    },
+    {
+      src: photo3,
+      thumbnail: photo3,
+      thumbnailWidth: 320,
+      thumbnailHeight: 174
+    }];
 
 class Realizations extends Component {
   constructor(props) {
@@ -27,7 +48,7 @@ class Realizations extends Component {
       this.setState({
         showCarousel2: true
       })
-    },850);
+    }, 400);
   };
 
   handleChange3 = e => {
@@ -43,7 +64,7 @@ class Realizations extends Component {
       this.setState({
         showCarousel1: true
       })
-    },850);
+    }, 400);
   };
 
   handleChange2 = e => {
@@ -59,7 +80,7 @@ class Realizations extends Component {
   };
 
   handleChange1 = e => {
-    e.currentTarget.style.display = "none";
+
   };
 
   render() {
@@ -72,24 +93,11 @@ class Realizations extends Component {
             </div>
             <div className="row">
               <div className="realizations__box">
-                <div className="realizations__project" onClick={this.handleChange1}>
-                  <i className="fas fa-search"/>
-                </div>
-                <Carousel>
-                  <img src={photo1} alt={"alt"}/>
-                  <img src={photo2} alt={"alt"}/>
-                  <img src={photo3} alt={"alt"}/>
-                </Carousel>
+                <Gallery images={IMAGES} enableImageSelection={false} enableLightbox={true} margin={0}/>
+                <i className="fas fa-search"/>
               </div>
               <div className="realizations__box">
-                <div className="realizations__project" onClick={this.handleChange1}>
-                  <i className="fas fa-search"/>
-                </div>
-                <Carousel>
-                  <img src={photo1} alt={"alt"}/>
-                  <img src={photo2} alt={"alt"}/>
-                  <img src={photo3} alt={"alt"}/>
-                </Carousel>
+                <Gallery images={IMAGES} enableImageSelection={false} enableLightbox={true} margin={0}/>
               </div>
             </div>
             <div className="row">
@@ -102,7 +110,8 @@ class Realizations extends Component {
                   <img src={photo2} alt={"alt"}/>
                   <img src={photo3} alt={"alt"}/>
                 </Carousel>
-                <div style={this.state.showCarousel1 ? {position: "absolute", zIndex: "-1"} : {}} className={"testing"}/>
+                <div style={this.state.showCarousel1 ? {position: "absolute", zIndex: "-1"} : {}}
+                     className={"testing"}/>
               </div>
               <div className="realizations__box">
                 <div className="realizations__project" onClick={this.handleChange4}>
@@ -113,7 +122,8 @@ class Realizations extends Component {
                   <img src={photo2} alt={"alt"}/>
                   <img src={photo3} alt={"alt"}/>
                 </Carousel>
-                <div style={this.state.showCarousel2 ? {position: "absolute", zIndex: "-1"} : {}} className={"testing"}/>
+                <div style={this.state.showCarousel2 ? {position: "absolute", zIndex: "-1"} : {}}
+                     className={"testing"}/>
               </div>
             </div>
             <div className="row">
