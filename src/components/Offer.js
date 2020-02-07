@@ -41,7 +41,7 @@ class Offer extends Component {
         <article className="container" name={"offer"}>
           <div className="row">
 
-            <Link to={"offer"} spy={true} smooth={true} duration={1000} offset={-200} className="col-4"
+            <Link to={"offer"} spy={true} smooth={true} duration={1000} offset={-140} className="col-4"
                   onClick={this.handleBigger} id={"firstOffer"}>
 
               <div className="article__img"/>
@@ -76,7 +76,7 @@ class Offer extends Component {
               <br/>
               <p className="article__text">Zapraszam do kontaktu</p>
             </Link>
-            <Link to={"offer"} spy={true} smooth={true} duration={1000} offset={-200} className="col-4"
+            <Link to={"offer"} spy={true} smooth={true} duration={1000} offset={-140} className="col-4"
                   onClick={this.handleBigger} id={"secondOffer"}>
 
               <div className="article__img"/>
@@ -113,7 +113,7 @@ class Offer extends Component {
               <br/>
               <p className="article__text">Zapraszam do kontaktu</p>
             </Link>
-            <Link to={"offer"} spy={true} smooth={true} duration={1000} offset={-200} className="col-4"
+            <Link to={"offer"} spy={true} smooth={true} duration={1000} offset={-140} className="col-4"
                   onClick={this.handleBigger} id={"thirdOffer"}>
               <div className="article__img"/>
               <h3 className="article__title">FLORYSTYKA DLA DOMU I FIRMY</h3>
