@@ -12,13 +12,42 @@ $singleColWidth: 100%/($numOfColumns);
     height: 100%;
     display: flex;
     justify-content: space-between;
+
     [class*='col-'] {
       min-height: 1px;
     }
+
     @for $n from 1 through $numOfColumns {
       .col-#{$n} {
         width: $singleColWidth * $n;
       }
+    }
+  }
+}
+
+@media (max-width: 1920px) {
+  .container {
+
+    .row {
+      width: 80%;
+    }
+  }
+}
+
+@media (max-width: 1650px) {
+  .container {
+
+    .row {
+      width: 85%;
+    }
+  }
+}
+
+@media (max-width: 1550px) {
+  .container {
+
+    .row {
+      width: 90%;
     }
   }
 }

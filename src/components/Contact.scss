@@ -88,3 +88,38 @@
     }
   }
 }
+
+@media (max-width: 1200px) {
+  .contact {
+
+    .row {
+
+      .contact__mediaBox {
+        width: 70%;
+      }
+    }
+  }
+}
+
+@media (max-width: 1000px) {
+  .contact {
+
+    .row {
+
+      .contact__mediaBox {
+        width: 85%;
+
+        .contact__mediaBox__socialMedia {
+          //flex-direction: column;
+          .socialMedia {
+            //padding: 0;
+            //margin: -10px -5px;
+          }
+        }
+
+      }
+    }
+  }
+}
+
+

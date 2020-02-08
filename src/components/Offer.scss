@@ -5,8 +5,9 @@ article.container {
   overflow-x: hidden;
 
   .row {
+
     .col-4 {
-      flex: 0 0 30%;
+      flex: 0 0 25%;
       height: 420px;
       overflow: hidden;
       padding: 10px 15px;
@@ -102,4 +103,49 @@ article.container {
     }
 
   }
+
+  .row--offer {
+    width: 100%;
+    justify-content: center;
+  }
 }
+
+@media (max-width: 1550px) {
+  article.container {
+
+    .row {
+
+      .col-4 {
+        flex: 0 0 30%;
+      }
+    }
+  }
+}
+
+@media (max-width: 1200px) {
+  article.container {
+
+    .row {
+
+      .col-4 {
+        height: 435px;
+      }
+    }
+  }
+}
+
+@media (max-width: 1000px) {
+  article.container {
+
+    .row {
+      flex-wrap: wrap;
+
+      .col-4 {
+        flex: 0 0 45%;
+        height: 425px;
+        margin-bottom: 20px;
+      }
+    }
+  }
+}
+

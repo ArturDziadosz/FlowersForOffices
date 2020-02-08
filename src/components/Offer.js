@@ -19,15 +19,15 @@ class Offer extends Component {
       });
       if (e.currentTarget.getAttribute("id") === "secondOffer") {
         document.querySelectorAll("article.container .row .col-4").forEach(elem => {
-          elem.style.left = "calc(12.5% - 462px)";
+          elem.style.left = "0";
         });
       } else if (e.currentTarget.getAttribute("id") === "thirdOffer") {
         document.querySelectorAll("article.container .row .col-4").forEach(elem => {
-          elem.style.left = "calc(12.5% - 924px)";
+          elem.style.left = "-25%";
         });
       } else if (e.currentTarget.getAttribute("id") === "firstOffer") {
         document.querySelectorAll("article.container .row .col-4").forEach(elem => {
-          elem.style.left = "12.5%";
+          elem.style.left = "25%";
         });
       }
       e.currentTarget.style.animation = "offerFlex 800ms forwards linear";
@@ -39,7 +39,7 @@ class Offer extends Component {
     return (
       <>
         <article className="container" name={"offer"}>
-          <div className="row">
+          <div className="row row--offer">
 
             <Link to={"offer"} spy={true} smooth={true} duration={1000} offset={-140} className="col-4"
                   onClick={this.handleBigger} id={"firstOffer"}>

@@ -54,3 +54,45 @@
 
   }
 }
+
+@media (max-width: 1550px) {
+  .quote {
+
+    .container {
+
+      .row {
+        padding: 120px 50px;
+      }
+    }
+  }
+}
+
+@media (max-width: 1200px) {
+  .quote {
+
+    .container {
+
+      .row {
+        padding: 100px 150px;
+        .quote__text {
+          margin-bottom: 10px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1000px) {
+  .quote {
+
+    .container {
+
+      .row {
+        padding: 100px 50px;
+        .quote__text {
+          margin-bottom: 10px;
+        }
+      }
+    }
+  }
+}
