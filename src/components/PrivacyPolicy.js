@@ -36,7 +36,7 @@ class PrivacyPolicy extends Component {
       <>
         <footer className="container">
           <div className="row">
-            <p className="footer__text">Wszelkie prawa zastrzeżone <span>www.slubnaflorystyka.pl</span> | <span onClick={this.handleExtraPolicy}>Polityka prywatności</span></p>
+            <p className="footer__text">Wszelkie prawa zastrzeżone <span>www.slubnaflorystyka.pl</span> <span>|</span> <span onClick={this.handleExtraPolicy}>Polityka prywatności</span></p>
             <p className="footer__design">Designed by <span><a href={"https://github.com/ArturDziadosz"} target={"_blank"}>Artur Dziadosz</a></span></p>
           </div>
           <article className={"privacyPolicy"} style={this.state.privacyPolicy ? {display: "block"} : {}}>

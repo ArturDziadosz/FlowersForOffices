@@ -11,6 +11,7 @@ footer.container {
 
       span {
         cursor: pointer;
+
         &:hover {
           text-decoration: underline;
         }
@@ -24,6 +25,7 @@ footer.container {
 
       span {
         cursor: pointer;
+
         &:hover {
           text-decoration: underline;
         }
@@ -93,4 +95,64 @@ footer.container {
     }
   }
 
+}
+
+@media (max-width: 768px) {
+  footer.container {
+
+    .row {
+      .footer__text {
+        font-size: 10px;
+      }
+
+      .footer__design {
+        font-size: 10px;
+      }
+    }
+
+    article.privacyPolicy {
+      padding: 20px;
+    }
+  }
+}
+
+@media (max-width: 550px) {
+  footer.container {
+
+    .row {
+      flex-direction: column;;
+      align-items: center;
+
+      .footer__text {
+        line-height: 30px;
+      }
+
+      .footer__design {
+        line-height: 30px;
+      }
+    }
+  }
+}
+
+@media (max-width: 400px) {
+  footer.container {
+
+    .row {
+
+      .footer__text {
+        text-align: center;
+        span {
+          &:nth-of-type(2) {
+            display: none;
+          }
+          &:last-of-type {
+            margin: 0 75px;
+          }
+        }
+      }
+
+      .footer__design {
+      }
+    }
+  }
 }

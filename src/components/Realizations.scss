@@ -183,3 +183,18 @@ article.realizations {
     }
   }
 }
+
+@media (max-width: 760px) {
+  article.realizations {
+
+    .row {
+      flex-direction: column;
+
+      .realizations__box {
+        flex: none !important;
+        width: 90%;
+      }
+
+    }
+  }
+}

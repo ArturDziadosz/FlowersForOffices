@@ -36,3 +36,18 @@ header.container--short {
     }
   }
 }
+
+@media (max-width: 768px) {
+  header.header {
+    height: auto;
+    padding: 5px 0;
+    .row {
+      justify-content: center;
+
+    }
+  }
+  header.container--short {
+    height: 60px;
+    padding: 0;
+  }
+}
