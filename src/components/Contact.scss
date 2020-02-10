@@ -11,11 +11,12 @@
     align-items: center;
 
     .contact__logo {
-      width: 225px;
-      height: 90px;
-      background-image: url("../assets/logo.png");
+      width: 325px;
+      height: 140px;
+      background-image: url("../assets/logo white.jpg");
+      background-size: cover;
+      background-position: center;
       background-color: #fff;
-      margin-bottom: 40px;
     }
 
     .contact__text {
