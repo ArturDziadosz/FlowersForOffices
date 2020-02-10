@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/FlowersForOffices/static/css/main.e00ba677.chunk.css",
-    "main.js": "/FlowersForOffices/static/js/main.54fe93b2.chunk.js",
-    "main.js.map": "/FlowersForOffices/static/js/main.54fe93b2.chunk.js.map",
+    "main.css": "/FlowersForOffices/static/css/main.5fc9eaa4.chunk.css",
+    "main.js": "/FlowersForOffices/static/js/main.12720e4b.chunk.js",
+    "main.js.map": "/FlowersForOffices/static/js/main.12720e4b.chunk.js.map",
     "runtime-main.js": "/FlowersForOffices/static/js/runtime-main.de571a11.js",
     "runtime-main.js.map": "/FlowersForOffices/static/js/runtime-main.de571a11.js.map",
-    "static/js/2.87f62ac0.chunk.js": "/FlowersForOffices/static/js/2.87f62ac0.chunk.js",
-    "static/js/2.87f62ac0.chunk.js.map": "/FlowersForOffices/static/js/2.87f62ac0.chunk.js.map",
+    "static/js/2.894ea890.chunk.js": "/FlowersForOffices/static/js/2.894ea890.chunk.js",
+    "static/js/2.894ea890.chunk.js.map": "/FlowersForOffices/static/js/2.894ea890.chunk.js.map",
     "index.html": "/FlowersForOffices/index.html",
-    "precache-manifest.f2777e1ac4498e2d1e7935af022794ae.js": "/FlowersForOffices/precache-manifest.f2777e1ac4498e2d1e7935af022794ae.js",
+    "precache-manifest.2ae46970aae01a4920a36313e15aa8fb.js": "/FlowersForOffices/precache-manifest.2ae46970aae01a4920a36313e15aa8fb.js",
     "service-worker.js": "/FlowersForOffices/service-worker.js",
-    "static/css/main.e00ba677.chunk.css.map": "/FlowersForOffices/static/css/main.e00ba677.chunk.css.map",
-    "static/js/2.87f62ac0.chunk.js.LICENSE": "/FlowersForOffices/static/js/2.87f62ac0.chunk.js.LICENSE",
-    "static/media/Realizations.scss": "/FlowersForOffices/static/media/iza-kuba-620x300.680be8dc.jpg",
+    "static/css/main.5fc9eaa4.chunk.css.map": "/FlowersForOffices/static/css/main.5fc9eaa4.chunk.css.map",
+    "static/js/2.894ea890.chunk.js.LICENSE": "/FlowersForOffices/static/js/2.894ea890.chunk.js.LICENSE",
+    "static/media/index.scss": "/FlowersForOffices/static/media/logo white.0173b659.jpg",
     "static/media/Quote.scss": "/FlowersForOffices/static/media/photobox1.e9fba2fa.jpg",
     "static/media/Offer.scss": "/FlowersForOffices/static/media/photobox3.a4e2ba7f.jpg",
     "static/media/Hero.scss": "/FlowersForOffices/static/media/s2.0dbd3ad0.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.de571a11.js",
-    "static/js/2.87f62ac0.chunk.js",
-    "static/css/main.e00ba677.chunk.css",
-    "static/js/main.54fe93b2.chunk.js"
+    "static/js/2.894ea890.chunk.js",
+    "static/css/main.5fc9eaa4.chunk.css",
+    "static/js/main.12720e4b.chunk.js"
   ]
 }

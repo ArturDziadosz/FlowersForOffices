@@ -1,39 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "398a468f320b3b1add6301be80398fc9",
+    "revision": "a04caf43327097d29e47239d31913cd3",
     "url": "/FlowersForOffices/index.html"
   },
   {
-    "revision": "473d611b351adbdc34a9",
-    "url": "/FlowersForOffices/static/css/main.e00ba677.chunk.css"
+    "revision": "fe3c9e77a81c06dd366b",
+    "url": "/FlowersForOffices/static/css/main.5fc9eaa4.chunk.css"
   },
   {
-    "revision": "50f36a926cccdbe1ba62",
-    "url": "/FlowersForOffices/static/js/2.87f62ac0.chunk.js"
+    "revision": "6e889a2556e8dc9e8931",
+    "url": "/FlowersForOffices/static/js/2.894ea890.chunk.js"
   },
   {
     "revision": "fc8bc21d8392cbf38ae828c75bee2e0a",
-    "url": "/FlowersForOffices/static/js/2.87f62ac0.chunk.js.LICENSE"
+    "url": "/FlowersForOffices/static/js/2.894ea890.chunk.js.LICENSE"
   },
   {
-    "revision": "473d611b351adbdc34a9",
-    "url": "/FlowersForOffices/static/js/main.54fe93b2.chunk.js"
+    "revision": "fe3c9e77a81c06dd366b",
+    "url": "/FlowersForOffices/static/js/main.12720e4b.chunk.js"
   },
   {
     "revision": "41c91ebcaab1975d49cf",
     "url": "/FlowersForOffices/static/js/runtime-main.de571a11.js"
   },
   {
-    "revision": "cd2f7ad516a895b4572c917a009ca5e6",
-    "url": "/FlowersForOffices/static/media/Ceremonia-4-z-133-620x300.cd2f7ad5.jpg"
-  },
-  {
-    "revision": "452170ad559a9ed4934956855e5dad90",
-    "url": "/FlowersForOffices/static/media/Iza-i-Jakub-620x300.452170ad.jpg"
-  },
-  {
-    "revision": "680be8dcbaddae85eccbc2329728e5a0",
-    "url": "/FlowersForOffices/static/media/iza-kuba-620x300.680be8dc.jpg"
+    "revision": "0173b6599d68fa3d0ef5d6e3c33d28e3",
+    "url": "/FlowersForOffices/static/media/logo white.0173b659.jpg"
   },
   {
     "revision": "e9fba2fa22f1a9ce765905e2949eadc1",
