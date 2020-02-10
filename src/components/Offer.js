@@ -2,8 +2,49 @@ import React, {Component} from 'react';
 import {Link} from 'react-scroll';
 import './Offer.scss';
 
-
 class Offer extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      tightScreen: false
+    }
+  }
+
+  componentDidMount() {
+    this.checkingInnerWidth();
+  }
+
+  checkingInnerWidth = () => {
+    if (window.innerWidth < 1000) {
+      this.setState({
+        tightScreen: true
+      })
+    }
+    else {
+      this.setState({
+        tightScreen: false
+      })
+    }
+
+    window.addEventListener("resize", () => {
+      document.querySelectorAll("article.container .row .col-4").forEach(elem => {
+        elem.style.left = "";
+        elem.style.animation = "";
+        elem.style.flexBasis = "";
+      });
+
+      if (window.innerWidth < 1000) {
+        this.setState({
+          tightScreen: true
+        })
+      }
+      else {
+        this.setState({
+          tightScreen: false
+        })
+      }
+    })
+  };
 
   handleBigger = e => {
 
@@ -34,6 +75,16 @@ class Offer extends Component {
     }
   };
 
+  handleBiggerColumn = e => {
+    if (e.currentTarget.style.flexBasis === "100%") {
+      e.currentTarget.style.flexBasis = "";
+    } else {
+      document.querySelectorAll("article.container .row .col-4").forEach(elem => {
+        elem.style.flexBasis = "";
+      });
+      e.currentTarget.style.flexBasis = "100%";
+    }
+  };
 
   render() {
     return (
@@ -41,8 +92,8 @@ class Offer extends Component {
         <article className="container" name={"offer"}>
           <div className="row row--offer">
 
-            <Link to={"offer"} spy={true} smooth={true} duration={1000} offset={-140} className="col-4"
-                  onClick={this.handleBigger} id={"firstOffer"}>
+            <Link to={"offer"} spy={true} smooth={true} duration={1000} offset={this.state.tightScreen ? -60 : -140} className="col-4"
+                  onClick={this.state.tightScreen ? this.handleBiggerColumn : this.handleBigger} id={"firstOffer"}>
 
               <div className="article__img"/>
               <h3 className="article__title">FLORYSTYKA OKOLICZNOŚCIOWA</h3>
@@ -76,8 +127,8 @@ class Offer extends Component {
               <br/>
               <p className="article__text">Zapraszam do kontaktu</p>
             </Link>
-            <Link to={"offer"} spy={true} smooth={true} duration={1000} offset={-140} className="col-4"
-                  onClick={this.handleBigger} id={"secondOffer"}>
+            <Link to={"offer"} spy={true} smooth={true} duration={1000} offset={this.state.tightScreen ? 380 : -140} className="col-4"
+                  onClick={this.state.tightScreen ? this.handleBiggerColumn : this.handleBigger} id={"secondOffer"}>
 
               <div className="article__img"/>
               <h3 className="article__title">FLORYSTYKA ŚLUBNA</h3>
@@ -113,8 +164,8 @@ class Offer extends Component {
               <br/>
               <p className="article__text">Zapraszam do kontaktu</p>
             </Link>
-            <Link to={"offer"} spy={true} smooth={true} duration={1000} offset={-140} className="col-4"
-                  onClick={this.handleBigger} id={"thirdOffer"}>
+            <Link to={"offer"} spy={true} smooth={true} duration={1000} offset={this.state.tightScreen ? 820 : -140} className="col-4"
+                  onClick={this.state.tightScreen ? this.handleBiggerColumn : this.handleBigger} id={"thirdOffer"}>
               <div className="article__img"/>
               <h3 className="article__title">FLORYSTYKA DLA DOMU I FIRMY</h3>
               <p className="article__text">Organizujemy przestrzeń, gdzie nie powinno zabraknąć kwiatów, które wprowadzą
