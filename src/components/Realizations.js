@@ -9,9 +9,9 @@ import './Realizations.scss';
 const IMAGES =
   [{
     src: photo1,
-    thumbnail: photo1
-    // thumbnailWidth: 320,
-    // thumbnailHeight: 174
+    thumbnail: photo1,
+    thumbnailWidth: 320,
+    thumbnailHeight: 174
   },
     {
       src: photo2,
@@ -27,15 +27,8 @@ const IMAGES =
     }];
 
 class Realizations extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      showCarousel1: false,
-      showCarousel2: false
-    }
-  }
 
-  handleChange4 = e => {
+/*  handleChange4 = e => {
     e.currentTarget.style.visibility = "hidden";
     e.currentTarget.parentElement.style.flex = "0 1 100%";
     e.currentTarget.parentElement.style.height = "auto";
@@ -77,11 +70,7 @@ class Realizations extends Component {
       e.currentTarget.parentElement.previousElementSibling.style.flex = "1 1 50%";
     }
     e.currentTarget.nextElementSibling.style.display = "block";
-  };
-
-  handleChange1 = e => {
-
-  };
+  };*/
 
   render() {
     return (
@@ -98,54 +87,27 @@ class Realizations extends Component {
               </div>
               <div className="realizations__box">
                 <Gallery images={IMAGES} enableImageSelection={false} enableLightbox={true} margin={0}/>
+                <i className="fas fa-search"/>
               </div>
             </div>
             <div className="row">
               <div className="realizations__box">
-                <div className="realizations__project" onClick={this.handleChange3}>
-                  <i className="fas fa-search"/>
-                </div>
-                <Carousel style={this.state.showCarousel1 ? {display: "block"} : {display: "none"}}>
-                  <img src={photo1} alt={"alt"}/>
-                  <img src={photo2} alt={"alt"}/>
-                  <img src={photo3} alt={"alt"}/>
-                </Carousel>
-                <div style={this.state.showCarousel1 ? {position: "absolute", zIndex: "-1"} : {}}
-                     className={"testing"}/>
+                <Gallery images={IMAGES} enableImageSelection={false} enableLightbox={true} margin={0}/>
+                <i className="fas fa-search"/>
               </div>
               <div className="realizations__box">
-                <div className="realizations__project" onClick={this.handleChange4}>
-                  <i className="fas fa-search"/>
-                </div>
-                <Carousel style={this.state.showCarousel2 ? {display: "block"} : {display: "none"}}>
-                  <img src={photo1} alt={"alt"}/>
-                  <img src={photo2} alt={"alt"}/>
-                  <img src={photo3} alt={"alt"}/>
-                </Carousel>
-                <div style={this.state.showCarousel2 ? {position: "absolute", zIndex: "-1"} : {}}
-                     className={"testing"}/>
+                <Gallery images={IMAGES} enableImageSelection={false} enableLightbox={true} margin={0}/>
+                <i className="fas fa-search"/>
               </div>
             </div>
             <div className="row">
               <div className="realizations__box">
-                <div className="realizations__project" onClick={this.handleChange2}>
-                  <i className="fas fa-search"/>
-                </div>
-                <Carousel style={{display: "none"}}>
-                  <img src={photo1} alt={"alt"}/>
-                  <img src={photo2} alt={"alt"}/>
-                  <img src={photo3} alt={"alt"}/>
-                </Carousel>
+                <Gallery images={IMAGES} enableImageSelection={false} enableLightbox={true} margin={0}/>
+                <i className="fas fa-search"/>
               </div>
               <div className="realizations__box">
-                <div className="realizations__project" onClick={this.handleChange2}>
-                  <i className="fas fa-search"/>
-                </div>
-                <Carousel style={{display: "none"}}>
-                  <img src={photo1} alt={"alt"}/>
-                  <img src={photo2} alt={"alt"}/>
-                  <img src={photo3} alt={"alt"}/>
-                </Carousel>
+                <Gallery images={IMAGES} enableImageSelection={false} enableLightbox={true} margin={0}/>
+                <i className="fas fa-search"/>
               </div>
             </div>
             <div className="row">
