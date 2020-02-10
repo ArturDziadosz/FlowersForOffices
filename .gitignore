@@ -24,3 +24,6 @@ yarn-error.log*
 
 # webStorm
 .idea/
+
+# Client
+/src/clientAssets

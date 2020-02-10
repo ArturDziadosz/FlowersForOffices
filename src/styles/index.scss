@@ -33,12 +33,13 @@ a {
   animation: heroBannerImg 500ms 2500ms forwards reverse ease-out;
 
   .logo {
-    background-image: url("../assets/logo.png");
-    background-size: cover;
+    background-image: url("../assets/logo white.jpg");
+    background-size: contain;
     background-position: center;
-    width: 40%;
-    height: 25%;
-    background-color: white;
+    background-repeat: no-repeat;
+    width: 50%;
+    height: 40%;
+    background-color: black;
     opacity: 0;
     animation: heroBannerImg 2000ms 500ms forwards linear;
   }
