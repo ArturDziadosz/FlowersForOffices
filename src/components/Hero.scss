@@ -23,3 +23,13 @@
 }
 
 
+@media (max-width: 768px) {
+  section.heroBanner {
+    min-height: 33vh;
+    margin-top: 20px;
+    .heroBanner__img {
+      min-height: 33vh;
+    }
+  }
+}
+
