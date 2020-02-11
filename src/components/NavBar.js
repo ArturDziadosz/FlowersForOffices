@@ -7,7 +7,8 @@ class NavBar extends Component {
     super(props);
     this.state = {
       topPosition: this.props.topPosition,
-      extraMenu: false
+      extraMenu: false,
+      hamburgerMenuOpen: this.props.hamburgerMenuOpen
     }
   }
 
