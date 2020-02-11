@@ -100,7 +100,7 @@ class Offer extends Component {
               <p className="article__text">Oferujemy niepowtarzalne aranżacje kwiatowe, pasujące do charakteru i
                 okoliczności przyjęcia. Zadbamy, aby ten dzień był dla Was niezapomniany.</p>
               <br/>
-              <div className={"article__box"}>
+              <div className={"article__box"} style={this.state.tightScreen ? {display: `block`} : {}}>
                 <div>
                   <p className="article__text">Pracownia Kwiatostan proponuje rozwiązania na każdą okazję, oferujemy
                     oprawę florystyczną imprez okolicznościowych, takich jak:</p>
@@ -113,6 +113,7 @@ class Offer extends Component {
                     <li>Inne</li>
                   </ul>
                 </div>
+                {this.state.tightScreen ? <br/> : ""}
                 <div>
                   <p className="article__text">Jest również wiele okazji, by obdarować bliską nam osobę pięknymi
                     kwiatami, w naszej ofercie znajdziecie:</p>
@@ -140,7 +141,7 @@ class Offer extends Component {
                 wyjątkowy, niepowtarzalny i magiczny. Pracownia Kwiatostan stworzy dla Was dekoracje kwiatowe, które
                 będą pięknym dopełnieniem tego dnia.</p>
               <br/>
-              <div className={"article__box"}>
+              <div className={"article__box"} style={this.state.tightScreen ? {display: `block`} : {}}>
                 <div>
                   <p className="article__text">Oferujemy kompleksową florystykę ślubną:</p>
                   <ul className="article__text article__text--list">
@@ -153,6 +154,7 @@ class Offer extends Component {
                     <li>Podziękowania dla rodziców</li>
                   </ul>
                 </div>
+                {this.state.tightScreen ? <br/> : ""}
                 <div>
 
                   <p className="article__text">Zapraszam na bezpłatne konsultacje, po których Klient otrzymuje
@@ -171,11 +173,12 @@ class Offer extends Component {
               <p className="article__text">Organizujemy przestrzeń, gdzie nie powinno zabraknąć kwiatów, które wprowadzą
                 wyjątkową atmosferę, świeżość i mnóstwo barw.</p>
               <br/>
-              <div className={"article__box"}>
+              <div className={"article__box"} style={this.state.tightScreen ? {display: `block`} : {}}>
                 <div>
 
                   <p className="article__text">Pracownia Kwiatostan świadczy usługi florystyczne dla klientów indywidualnych oraz firmowych. Proponujemy dostawę świeżych kwiatów do domu, biura lub restauracji co najmniej raz w tygodniu.</p>
                 </div>
+                {this.state.tightScreen ? <br/> : ""}
                 <div>
                   <p className="article__text">Dodatkowo naszym Klientom oferujemy:</p>
                   <ul className="article__text article__text--list">
