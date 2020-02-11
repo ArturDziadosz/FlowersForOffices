@@ -7,6 +7,15 @@
   }
 }
 
+@keyframes navBarLineHamburger {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 30%;
+  }
+}
+
 @keyframes heroBannerImg {
   0% {
     opacity: 0;

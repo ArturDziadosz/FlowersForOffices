@@ -92,3 +92,15 @@ header.container--short {
     padding: 0;
   }
 }
+
+@media (max-width: 450px) {
+  header.header {
+
+    .row {
+      .header__hamburger {
+        right: 0;
+      }
+
+    }
+  }
+}

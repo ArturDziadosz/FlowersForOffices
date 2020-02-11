@@ -71,9 +71,16 @@ class Header extends Component {
                 <div className="header__logo"/>
               </Link>
               <NavBar topPosition={this.state.topPosition}/>
-              {this.state.tightScreen ? this.state.hamburgerMenuOpen ? <div className={"header__hamburger header__hamburger--open"} onClick={this.handleHamburgerMenu}><div className={"header__hamburger__bar"} /><div className={"header__hamburger__bar"} /></div> : <div className={"header__hamburger"} onClick={this.handleHamburgerMenu}><div className={"header__hamburger__bar"} /></div> : ""}
+              {this.state.tightScreen ? this.state.hamburgerMenuOpen ?
+                <div className={"header__hamburger header__hamburger--open"} style={this.state.topPosition ? {} : {top: "28px"}} onClick={this.handleHamburgerMenu}>
+                  <div className={"header__hamburger__bar"}/>
+                  <div className={"header__hamburger__bar"}/>
+                </div> :
+                <div className={"header__hamburger"} style={this.state.topPosition ? {} : {top: "23px"}} onClick={this.handleHamburgerMenu}>
+                  <div className={"header__hamburger__bar"}/>
+                </div> : ""}
             </div>
-            {this.state.hamburgerMenuOpen ? <NavBar hamburgerMenuOpen={this.state.hamburgerMenuOpen}/> : ""}
+            {this.state.hamburgerMenuOpen && this.state.tightScreen ? <NavBar hamburgerMenuOpen={this.state.hamburgerMenuOpen}/> : ""}
           </section>
         </header>
       </>

@@ -101,3 +101,38 @@
     display: none;
   }
 }
+
+.nav--hamburger {
+  display: block;
+  position: absolute;
+  width: 100%;
+  background-color: $colorBackgroundW;
+
+  .nav__list {
+    justify-content: center;
+    border-bottom: 1px solid $colorText;
+  }
+}
+
+@media (max-width: 450px) {
+  .nav--hamburger {
+    .nav__list {
+      flex-direction: column;
+      .nav__list__elem {
+        text-align: center;
+
+        &:hover {
+          &::after {
+            animation: navBarLineHamburger 500ms forwards ease-in-out;
+            left: 35%;
+          }
+        }
+
+        &:first-of-type {
+          display: none;
+        }
+      }
+    }
+  }
+}
+
