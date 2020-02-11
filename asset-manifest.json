@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/FlowersForOffices/static/css/main.5fc9eaa4.chunk.css",
-    "main.js": "/FlowersForOffices/static/js/main.12720e4b.chunk.js",
-    "main.js.map": "/FlowersForOffices/static/js/main.12720e4b.chunk.js.map",
+    "main.css": "/FlowersForOffices/static/css/main.be108d36.chunk.css",
+    "main.js": "/FlowersForOffices/static/js/main.278bda74.chunk.js",
+    "main.js.map": "/FlowersForOffices/static/js/main.278bda74.chunk.js.map",
     "runtime-main.js": "/FlowersForOffices/static/js/runtime-main.de571a11.js",
     "runtime-main.js.map": "/FlowersForOffices/static/js/runtime-main.de571a11.js.map",
     "static/js/2.894ea890.chunk.js": "/FlowersForOffices/static/js/2.894ea890.chunk.js",
     "static/js/2.894ea890.chunk.js.map": "/FlowersForOffices/static/js/2.894ea890.chunk.js.map",
     "index.html": "/FlowersForOffices/index.html",
-    "precache-manifest.2ae46970aae01a4920a36313e15aa8fb.js": "/FlowersForOffices/precache-manifest.2ae46970aae01a4920a36313e15aa8fb.js",
+    "precache-manifest.c1ac1f611bc39e419dc75ec0b1e3cbdc.js": "/FlowersForOffices/precache-manifest.c1ac1f611bc39e419dc75ec0b1e3cbdc.js",
     "service-worker.js": "/FlowersForOffices/service-worker.js",
-    "static/css/main.5fc9eaa4.chunk.css.map": "/FlowersForOffices/static/css/main.5fc9eaa4.chunk.css.map",
+    "static/css/main.be108d36.chunk.css.map": "/FlowersForOffices/static/css/main.be108d36.chunk.css.map",
     "static/js/2.894ea890.chunk.js.LICENSE": "/FlowersForOffices/static/js/2.894ea890.chunk.js.LICENSE",
     "static/media/index.scss": "/FlowersForOffices/static/media/logo white.0173b659.jpg",
     "static/media/Quote.scss": "/FlowersForOffices/static/media/photobox1.e9fba2fa.jpg",
@@ -20,7 +20,7 @@
   "entrypoints": [
     "static/js/runtime-main.de571a11.js",
     "static/js/2.894ea890.chunk.js",
-    "static/css/main.5fc9eaa4.chunk.css",
-    "static/js/main.12720e4b.chunk.js"
+    "static/css/main.be108d36.chunk.css",
+    "static/js/main.278bda74.chunk.js"
   ]
 }
