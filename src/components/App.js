@@ -22,7 +22,7 @@ class App extends Component {
       this.setState({
         intro: false
       })
-    }, 2800);
+    }, 3000);
   }
 
   componentWillUnmount() {
