@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1a667620a51f487749db3eba6cd0cbdf",
+    "revision": "865a3ab373d5f6e50609ffa79622cc59",
     "url": "/FlowersForOffices/index.html"
   },
   {
-    "revision": "28730dcd6f32d48939ae",
-    "url": "/FlowersForOffices/static/css/main.e1b72193.chunk.css"
+    "revision": "a207ae6b14af590d57b7",
+    "url": "/FlowersForOffices/static/css/main.ff59be8e.chunk.css"
   },
   {
     "revision": "6e889a2556e8dc9e8931",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/FlowersForOffices/static/js/2.894ea890.chunk.js.LICENSE"
   },
   {
-    "revision": "28730dcd6f32d48939ae",
-    "url": "/FlowersForOffices/static/js/main.7e50ee73.chunk.js"
+    "revision": "a207ae6b14af590d57b7",
+    "url": "/FlowersForOffices/static/js/main.77433845.chunk.js"
   },
   {
     "revision": "41c91ebcaab1975d49cf",
