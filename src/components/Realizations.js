@@ -11,7 +11,7 @@ const IMAGES =
     src: photo1,
     thumbnail: photo1,
     thumbnailWidth: 320,
-    thumbnailHeight: 174
+    thumbnailHeight: 320
   },
     {
       src: photo2,
@@ -23,7 +23,7 @@ const IMAGES =
       src: photo3,
       thumbnail: photo3,
       thumbnailWidth: 320,
-      thumbnailHeight: 174
+      thumbnailHeight: 320
     }];
 
 class Realizations extends Component {
