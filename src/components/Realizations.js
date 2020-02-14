@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import Carousel from 'nuka-carousel';
+// import Carousel from 'nuka-carousel';
 import Gallery from 'react-grid-gallery';
 import photo1 from '../assets/photobox1.jpg';
 import photo2 from '../assets/photobox2.jpg';
@@ -83,42 +83,42 @@ class Realizations extends Component {
             <div className="row">
               <div className="realizations__box">
                 <Gallery images={IMAGES} enableImageSelection={false} enableLightbox={true} margin={0}/>
-                <i className="fas fa-search"/>
+                {/*<i className="fas fa-search"/>*/}
               </div>
               <div className="realizations__box">
                 <Gallery images={IMAGES} enableImageSelection={false} enableLightbox={true} margin={0}/>
-                <i className="fas fa-search"/>
+                {/*<i className="fas fa-search"/>*/}
               </div>
             </div>
-            <div className="row">
-              <div className="realizations__box">
-                <Gallery images={IMAGES} enableImageSelection={false} enableLightbox={true} margin={0}/>
-                <i className="fas fa-search"/>
-              </div>
-              <div className="realizations__box">
-                <Gallery images={IMAGES} enableImageSelection={false} enableLightbox={true} margin={0}/>
-                <i className="fas fa-search"/>
-              </div>
-            </div>
-            <div className="row">
-              <div className="realizations__box">
-                <Gallery images={IMAGES} enableImageSelection={false} enableLightbox={true} margin={0}/>
-                <i className="fas fa-search"/>
-              </div>
-              <div className="realizations__box">
-                <Gallery images={IMAGES} enableImageSelection={false} enableLightbox={true} margin={0}/>
-                <i className="fas fa-search"/>
-              </div>
-            </div>
-            <div className="row">
-              <div className="realizations__box" style={{height: "auto"}}>
-                <Carousel>
-                  <img src={photo1} alt={"alt"}/>
-                  <img src={photo2} alt={"alt"}/>
-                  <img src={photo3} alt={"alt"}/>
-                </Carousel>
-              </div>
-            </div>
+            {/*<div className="row">*/}
+            {/*  <div className="realizations__box">*/}
+            {/*    <Gallery images={IMAGES} enableImageSelection={false} enableLightbox={true} margin={0}/>*/}
+            {/*    <i className="fas fa-search"/>*/}
+            {/*  </div>*/}
+            {/*  <div className="realizations__box">*/}
+            {/*    <Gallery images={IMAGES} enableImageSelection={false} enableLightbox={true} margin={0}/>*/}
+            {/*    <i className="fas fa-search"/>*/}
+            {/*  </div>*/}
+            {/*</div>*/}
+            {/*<div className="row">*/}
+            {/*  <div className="realizations__box">*/}
+            {/*    <Gallery images={IMAGES} enableImageSelection={false} enableLightbox={true} margin={0}/>*/}
+            {/*    <i className="fas fa-search"/>*/}
+            {/*  </div>*/}
+            {/*  <div className="realizations__box">*/}
+            {/*    <Gallery images={IMAGES} enableImageSelection={false} enableLightbox={true} margin={0}/>*/}
+            {/*    <i className="fas fa-search"/>*/}
+            {/*  </div>*/}
+            {/*</div>*/}
+            {/*<div className="row">*/}
+            {/*  <div className="realizations__box" style={{height: "auto"}}>*/}
+            {/*    <Carousel>*/}
+            {/*      <img src={photo1} alt={"alt"}/>*/}
+            {/*      <img src={photo2} alt={"alt"}/>*/}
+            {/*      <img src={photo3} alt={"alt"}/>*/}
+            {/*    </Carousel>*/}
+            {/*  </div>*/}
+            {/*</div>*/}
           </section>
         </article>
       </>
