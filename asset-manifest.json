@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/FlowersForOffices/static/css/main.cc304de8.chunk.css",
+    "main.css": "/FlowersForOffices/static/css/main.c7925895.chunk.css",
     "main.js": "/FlowersForOffices/static/js/main.fd47da15.chunk.js",
     "main.js.map": "/FlowersForOffices/static/js/main.fd47da15.chunk.js.map",
     "runtime-main.js": "/FlowersForOffices/static/js/runtime-main.de571a11.js",
@@ -8,9 +8,9 @@
     "static/js/2.5c069e7a.chunk.js": "/FlowersForOffices/static/js/2.5c069e7a.chunk.js",
     "static/js/2.5c069e7a.chunk.js.map": "/FlowersForOffices/static/js/2.5c069e7a.chunk.js.map",
     "index.html": "/FlowersForOffices/index.html",
-    "precache-manifest.88b5570751b37ab07468b88027f52ec3.js": "/FlowersForOffices/precache-manifest.88b5570751b37ab07468b88027f52ec3.js",
+    "precache-manifest.fdb4a91eb59482d005d99397e5a38df0.js": "/FlowersForOffices/precache-manifest.fdb4a91eb59482d005d99397e5a38df0.js",
     "service-worker.js": "/FlowersForOffices/service-worker.js",
-    "static/css/main.cc304de8.chunk.css.map": "/FlowersForOffices/static/css/main.cc304de8.chunk.css.map",
+    "static/css/main.c7925895.chunk.css.map": "/FlowersForOffices/static/css/main.c7925895.chunk.css.map",
     "static/js/2.5c069e7a.chunk.js.LICENSE": "/FlowersForOffices/static/js/2.5c069e7a.chunk.js.LICENSE",
     "static/media/index.scss": "/FlowersForOffices/static/media/logo white.0173b659.jpg",
     "static/media/Contact.scss": "/FlowersForOffices/static/media/logo white.c6ad677d.png",
@@ -21,7 +21,7 @@
   "entrypoints": [
     "static/js/runtime-main.de571a11.js",
     "static/js/2.5c069e7a.chunk.js",
-    "static/css/main.cc304de8.chunk.css",
+    "static/css/main.c7925895.chunk.css",
     "static/js/main.fd47da15.chunk.js"
   ]
 }
