@@ -1,7 +1,7 @@
 @import "../styles/settings/variables";
 
 .contact {
-  background-color: $colorBackgroundB;
+  background-color: #71836B;
   color: $colorTextW;
   margin-top: 30px;
   padding: 40px 0;
@@ -13,10 +13,9 @@
     .contact__logo {
       width: 325px;
       height: 140px;
-      background-image: url("../assets/logo white.jpg");
+      background-image: url("../assets/logo white.png");
       background-size: cover;
       background-position: center;
-      background-color: #fff;
     }
 
     .contact__text {
