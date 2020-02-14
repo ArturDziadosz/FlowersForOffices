@@ -61,6 +61,12 @@ class Header extends Component {
     })
   };
 
+  closeHamburgerMenu = () => {
+    this.setState({
+      hamburgerMenuOpen: false
+    })
+  };
+
   render() {
     return (
       <>
@@ -80,7 +86,7 @@ class Header extends Component {
                   <div className={"header__hamburger__bar"}/>
                 </div> : ""}
             </div>
-            {this.state.hamburgerMenuOpen && this.state.tightScreen ? <NavBar hamburgerMenuOpen={this.state.hamburgerMenuOpen}/> : ""}
+            {this.state.hamburgerMenuOpen && this.state.tightScreen ? <NavBar hamburgerMenuOpen={this.state.hamburgerMenuOpen} handleParentCloseHamburgerMenu={this.closeHamburgerMenu}/> : ""}
           </section>
         </header>
       </>
