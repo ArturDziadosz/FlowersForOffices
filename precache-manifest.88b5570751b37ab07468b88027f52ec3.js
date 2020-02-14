@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "865a3ab373d5f6e50609ffa79622cc59",
+    "revision": "e2e505d2f18e548f6ed126f167f37f32",
     "url": "/FlowersForOffices/index.html"
   },
   {
-    "revision": "a207ae6b14af590d57b7",
-    "url": "/FlowersForOffices/static/css/main.ff59be8e.chunk.css"
+    "revision": "30258807cf9a46ba76a1",
+    "url": "/FlowersForOffices/static/css/main.cc304de8.chunk.css"
   },
   {
-    "revision": "6e889a2556e8dc9e8931",
-    "url": "/FlowersForOffices/static/js/2.894ea890.chunk.js"
+    "revision": "8e9d120db95d183e057d",
+    "url": "/FlowersForOffices/static/js/2.5c069e7a.chunk.js"
   },
   {
-    "revision": "fc8bc21d8392cbf38ae828c75bee2e0a",
-    "url": "/FlowersForOffices/static/js/2.894ea890.chunk.js.LICENSE"
+    "revision": "bd0d470e8f4870e0425280eb9c4f61b7",
+    "url": "/FlowersForOffices/static/js/2.5c069e7a.chunk.js.LICENSE"
   },
   {
-    "revision": "a207ae6b14af590d57b7",
-    "url": "/FlowersForOffices/static/js/main.77433845.chunk.js"
+    "revision": "30258807cf9a46ba76a1",
+    "url": "/FlowersForOffices/static/js/main.fd47da15.chunk.js"
   },
   {
     "revision": "41c91ebcaab1975d49cf",
@@ -26,6 +26,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "0173b6599d68fa3d0ef5d6e3c33d28e3",
     "url": "/FlowersForOffices/static/media/logo white.0173b659.jpg"
+  },
+  {
+    "revision": "c6ad677dba008bf01f2a5168ccc51be4",
+    "url": "/FlowersForOffices/static/media/logo white.c6ad677d.png"
   },
   {
     "revision": "e9fba2fa22f1a9ce765905e2949eadc1",
