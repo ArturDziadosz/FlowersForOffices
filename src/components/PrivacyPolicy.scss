@@ -15,6 +15,10 @@ footer.container {
         &:hover {
           text-decoration: underline;
         }
+
+        a {
+          color: $colorText;
+        }
       }
     }
 
@@ -141,10 +145,12 @@ footer.container {
 
       .footer__text {
         text-align: center;
+
         span {
           &:nth-of-type(2) {
             display: none;
           }
+
           &:last-of-type {
             margin: 0 75px;
           }

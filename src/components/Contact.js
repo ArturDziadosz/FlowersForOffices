@@ -12,7 +12,7 @@ class Contact extends Component {
               <p className="contact__text">Skontaktuj się z nami</p>
               <div className="contact__mediaBox">
                 <div className="contact__mediaBox__standardMedia">
-                  <p className="standardMedia"><i className="fas fa-mobile-alt"/>+ 48 123 456 789 </p>
+                  <p className="standardMedia"><i className="fas fa-mobile-alt"/>+ 48 724 722 606 </p>
                   <p className="standardMedia"><i className="fas fa-envelope"/><a href={"mailto:kwiatostan.biuro@gmail.com"}>kwiatostan.biuro@gmail.com</a></p>
                 </div>
                 <div className="contact__mediaBox__socialMedia">

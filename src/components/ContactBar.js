@@ -9,7 +9,7 @@ class ContactBar extends Component {
           <div className="container">
             <div className="row">
               <div>
-                <p className="standardMedia"><i className="fas fa-mobile-alt"/><span>+ 48 123 456 789</span></p>
+                <p className="standardMedia"><i className="fas fa-mobile-alt"/><span>+ 48 724 722 606</span></p>
                 <p className="standardMedia"><i className="fas fa-envelope"/><a
                   href={"mailto:kwiatostan.biuro@gmail.com"}>kwiatostan.biuro@gmail.com</a></p>
               </div>
