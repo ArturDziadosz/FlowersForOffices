@@ -21,6 +21,20 @@
     opacity: 1;
   }
 
+  //60% {
+  //  opacity: 1;
+  //}
+
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes heroBannerStart {
+  0% {
+    opacity: 1;
+  }
+
   60% {
     opacity: 1;
   }

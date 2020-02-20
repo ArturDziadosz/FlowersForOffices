@@ -13,12 +13,12 @@
 
   .heroBanner__img--first {
     animation: heroBannerImg 5s infinite alternate-reverse cubic-bezier(1,0,0,1);
-    background-image: url("../assets/s1.jpg");
+    background-image: url("../assets/image0.png");
   }
 
   .heroBanner__img--second {
     animation: heroBannerImg 5s infinite alternate cubic-bezier(1,0,0,1);
-    background-image: url("../assets/s2.jpg");
+    background-image: url("../assets/image2.png");
   }
 }
 

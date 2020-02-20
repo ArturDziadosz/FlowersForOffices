@@ -77,7 +77,7 @@ article.container {
 
       &:first-of-type {
         .article__img {
-          background-image: url("../assets/photobox1.jpg");
+          background-image: url("../assets/image3.jpeg");
         }
 
         /*        .article__title {
@@ -90,14 +90,14 @@ article.container {
 
       &:nth-of-type(2) {
         .article__img {
-          background-image: url("../assets/photobox2.jpg");
+          background-image: url("../assets/image4.jpeg");
         }
 
       }
 
       &:last-of-type {
         .article__img {
-          background-image: url("../assets/photobox3.jpg");
+          background-image: url("../assets/image3.jpeg");
         }
       }
     }

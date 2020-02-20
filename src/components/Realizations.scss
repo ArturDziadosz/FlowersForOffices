@@ -26,26 +26,26 @@ article.realizations {
       transition: flex 500ms;
       position: relative;
 
-      .fas {
-        color: $colorTextW;
-        font-size: 30px;
-        line-height: 50px;
-        background-color: rgba(0, 0, 0, .5);
-        width: 50px;
-        height: 50px;
-        border-radius: 50%;
-        text-align: center;
-        display: none;
-        position: absolute;
-        left: calc(50% - 25px);
-        top: calc(50% - 25px);
-      }
+      //.fas {
+      //  color: $colorTextW;
+      //  font-size: 30px;
+      //  line-height: 50px;
+      //  background-color: rgba(0, 0, 0, .5);
+      //  width: 50px;
+      //  height: 50px;
+      //  border-radius: 50%;
+      //  text-align: center;
+      //  display: none;
+      //  position: absolute;
+      //  left: calc(50% - 25px);
+      //  top: calc(50% - 25px);
+      //}
 
-      &:hover {
-        .fas {
-          display: block;
-        }
-      }
+      //&:hover {
+      //  .fas {
+      //    display: block;
+      //  }
+      //}
 
       .ReactGridGallery {
         .ReactGridGallery_tile {
@@ -63,7 +63,7 @@ article.realizations {
               margin-left: 0 !important;
               width: auto !important;
               height: auto !important;
-              transform: scale(1.2);
+              transform: scale(.7);
               transition: transform 500ms;
               display: flex;
               justify-content: center;
@@ -71,7 +71,7 @@ article.realizations {
 
               &:hover {
                 transition: transform 500ms;
-                transform: scale(1.1);
+                transform: scale(.8);
 
                 &::before {
                   content: 'f002';

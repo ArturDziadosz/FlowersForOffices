@@ -26,19 +26,20 @@ a {
   z-index: 99999;
   width: 100vw;
   height: 100vh;
-  background-color: $colorBackgroundB;
+  background-color: $colorBackgroundOlive;
   display: flex;
   justify-content: center;
   align-items: center;
-  animation: heroBannerImg 2700ms 300ms forwards ease-out;
+  animation: heroBannerStart 2700ms 300ms forwards ease-out;
 
   .logo {
-    background-image: url("../assets/logo white.jpg");
+    background-image: url("../assets/logo white.png");
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
     width: 50%;
     height: 40%;
+    margin-bottom: 10%;
     //background-color: black;
     //opacity: 1;
     //animation: heroBannerImg 2000ms 500ms forwards linear;

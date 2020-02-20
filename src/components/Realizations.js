@@ -1,27 +1,47 @@
 import React, {Component} from 'react';
 // import Carousel from 'nuka-carousel';
 import Gallery from 'react-grid-gallery';
-import photo1 from '../assets/photobox1.jpg';
-import photo2 from '../assets/photobox2.jpg';
-import photo3 from '../assets/photobox3.jpg';
+import photo4 from '../assets/Real1/image1.jpeg';
+import photo5 from '../assets/Real1/image0.jpeg';
+import photo6 from '../assets/Real1/image2.jpeg';
 import './Realizations.scss';
 
 const IMAGES =
   [{
-    src: photo1,
-    thumbnail: photo1,
+    src: photo6,
+    thumbnail: photo6,
     thumbnailWidth: 320,
     thumbnailHeight: 320
   },
     {
-      src: photo2,
-      thumbnail: photo2,
+      src: photo5,
+      thumbnail: photo5,
       thumbnailWidth: 320,
       thumbnailHeight: 320
     },
     {
-      src: photo3,
-      thumbnail: photo3,
+      src: photo4,
+      thumbnail: photo4,
+      thumbnailWidth: 320,
+      thumbnailHeight: 320
+    }];
+
+const IMAGES1 =
+  [{
+    src: photo4,
+    thumbnail: photo4,
+    thumbnailWidth: 320,
+    thumbnailHeight: 320
+  },
+    {
+      src: photo5,
+      thumbnail: photo5,
+      thumbnailWidth: 320,
+      thumbnailHeight: 320
+    },
+    {
+      src: photo6,
+      thumbnail: photo6,
       thumbnailWidth: 320,
       thumbnailHeight: 320
     }];
@@ -82,7 +102,7 @@ class Realizations extends Component {
             </div>
             <div className="row">
               <div className="realizations__box">
-                <Gallery images={IMAGES} enableImageSelection={false} enableLightbox={true} margin={0}/>
+                <Gallery images={IMAGES1} enableImageSelection={false} enableLightbox={true} margin={0}/>
                 {/*<i className="fas fa-search"/>*/}
               </div>
               <div className="realizations__box">
