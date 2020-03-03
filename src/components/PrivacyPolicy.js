@@ -21,7 +21,7 @@ class PrivacyPolicy extends Component {
         privacyPolicy: false
       })
     }
-    console.log(e.keyCode);
+    // console.log(e.keyCode);
   };
 
   componentDidMount() {

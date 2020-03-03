@@ -152,7 +152,28 @@ footer.container {
           }
 
           &:last-of-type {
-            margin: 0 75px;
+            margin: 0 100px;
+          }
+        }
+      }
+
+      .footer__design {
+      }
+    }
+  }
+}
+
+@media (max-width: 328px) {
+  footer.container {
+
+    .row {
+
+      .footer__text {
+
+
+        span {
+          &:last-of-type {
+            margin: 0 50px;
           }
         }
       }
