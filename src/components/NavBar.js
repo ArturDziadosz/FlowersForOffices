@@ -27,7 +27,9 @@ class NavBar extends Component {
   };*/
 
   handleCloseHamburgerMenu = () => {
-    this.props.handleParentCloseHamburgerMenu();
+    if (typeof this.props.handleParentCloseHamburgerMenu === "function") {
+      this.props.handleParentCloseHamburgerMenu();
+    }
   };
 
   render() {
