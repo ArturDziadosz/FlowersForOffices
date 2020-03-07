@@ -4,6 +4,8 @@ footer.container {
   position: relative;
 
   .row {
+    font-family: $fontTitle;
+
     .footer__text {
       color: $colorText;
       font-size: 13px;
@@ -101,7 +103,7 @@ footer.container {
 
 }
 
-@media (max-width: 768px) {
+@media (max-width: 800px) {
   footer.container {
 
     .row {
@@ -120,7 +122,7 @@ footer.container {
   }
 }
 
-@media (max-width: 550px) {
+@media (max-width: 610px) {
   footer.container {
 
     .row {
@@ -138,7 +140,7 @@ footer.container {
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 440px) {
   footer.container {
 
     .row {
@@ -146,39 +148,6 @@ footer.container {
       .footer__text {
         text-align: center;
 
-        span {
-          &:nth-of-type(2) {
-            display: none;
-          }
-
-          &:last-of-type {
-            margin: 0 100px;
-          }
-        }
-      }
-
-      .footer__design {
-      }
-    }
-  }
-}
-
-@media (max-width: 328px) {
-  footer.container {
-
-    .row {
-
-      .footer__text {
-
-
-        span {
-          &:last-of-type {
-            margin: 0 50px;
-          }
-        }
-      }
-
-      .footer__design {
       }
     }
   }
