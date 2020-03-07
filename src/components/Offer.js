@@ -48,7 +48,7 @@ class Offer extends Component {
 
   handleBigger = e => {
 
-    if (e.currentTarget.style.animation === "800ms linear 0s 1 normal forwards running offerFlex") {
+    if (e.currentTarget.style.animation === "400ms linear 0s 1 normal forwards running offerFlex") {
       e.currentTarget.style.animation = "";
       document.querySelectorAll("article.container .row .col-4").forEach(elem => {
         elem.style.left = "0";
@@ -71,7 +71,7 @@ class Offer extends Component {
           elem.style.left = "25%";
         });
       }
-      e.currentTarget.style.animation = "offerFlex 800ms forwards linear";
+      e.currentTarget.style.animation = "offerFlex 400ms forwards linear";
     }
   };
 
