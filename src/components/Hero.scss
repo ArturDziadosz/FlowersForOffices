@@ -1,10 +1,10 @@
 .heroBanner {
   position: relative;
-  min-height: 50vh;
+  min-height: 55vh;
 
   .heroBanner__img {
     width: 100%;
-    min-height: 50vh;
+    min-height: 55vh;
     position: absolute;
     background-position: center;
     background-size: cover;
@@ -23,10 +23,10 @@
 }
 
 
-@media (max-width: 850px) {
+@media (max-width: 850px) and (orientation: portrait) {
   section.heroBanner {
     min-height: 33vh;
-    margin-top: 20px;
+
     .heroBanner__img {
       min-height: 33vh;
     }

@@ -4,25 +4,28 @@
   background-color: $colorBackgroundOlive;
   color: $colorTextW;
   margin-top: 30px;
-  padding: 40px 0;
+  padding: 30px 0;
 
   .row {
     flex-direction: column;
     align-items: center;
 
     .contact__logo {
-      width: 325px;
+      width: 370px;
       height: 140px;
       background-image: url("../assets/logo white.png");
-      background-size: cover;
+      background-size: contain;
       background-position: center;
+      background-repeat: no-repeat;
+      margin-bottom: 10px;
     }
 
     .contact__text {
       text-transform: uppercase;
-      font-size: 20px;
+      font-size: 18px;
       line-height: 24px;
       margin-bottom: 20px;
+      font-family: $fontTitle;
     }
 
     .contact__mediaBox {
@@ -157,7 +160,7 @@
     .row {
 
       .contact__text {
-        font-size: 18px;
+        font-size: 16px;
       }
 
       .contact__mediaBox {
@@ -191,7 +194,7 @@
     .row {
 
       .contact__text {
-        font-size: 14px;
+        font-size: 12px;
       }
 
       .contact__mediaBox {
@@ -227,6 +230,10 @@
   .contact {
 
     .row {
+
+      .contact__logo {
+        width: 300px;
+      }
 
       .contact__mediaBox {
         flex-direction: column;
