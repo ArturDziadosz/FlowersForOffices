@@ -15,7 +15,14 @@ header.header {
       width: 225px;
       height: 90px;
       background-image: url("../assets/logo.png");
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center;
       cursor: pointer;
+    }
+
+    .header__logo--alt {
+      background-image: url("../assets/logoB2.png");
     }
 
     .header__hamburger {
@@ -71,8 +78,7 @@ header.container--short {
 
     .header__logo {
       position: relative;
-      top: -22px;
-      transition: all 400ms;
+      transition: all 200ms;
 
     }
   }
@@ -85,12 +91,18 @@ header.container--short {
 
     .row {
       justify-content: center;
-
+      margin: 10px auto;
     }
   }
   header.container--short {
     height: 60px;
     padding: 0;
+  }
+}
+
+@media (max-width: 850px) and (orientation: landscape) {
+  header.container--short {
+    display: none;
   }
 }
 

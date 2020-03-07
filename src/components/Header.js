@@ -74,7 +74,7 @@ class Header extends Component {
           <section className={this.state.topPosition ? "container" : "container container--short"}>
             <div className="row">
               <Link to={"header"} spy={true} smooth={true} duration={1000} offset={-250}>
-                <div className="header__logo"/>
+                <div className={this.state.topPosition ? "header__logo" : "header__logo header__logo--alt"}/>
               </Link>
               <NavBar topPosition={this.state.topPosition}/>
               {this.state.tightScreen ? this.state.hamburgerMenuOpen ?
