@@ -21,6 +21,7 @@
     font-weight: 300;
     color: $colorTextB;
     text-align: center;
+    font-family: $fontTitle;
   }
   .about__text {
     text-align: justify;
@@ -29,7 +30,7 @@
   }
 }
 
-@media (max-width: 390px) {
+@media (max-width: 450px) {
   .about {
 
     .about__title {
