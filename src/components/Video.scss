@@ -1,0 +1,36 @@
+@import '../styles/settings/variables';
+
+article.video {
+  //margin-bottom: 20px;
+  //margin-top: -30px;
+
+  .row {
+    justify-content: center;
+    align-items: center;
+
+    .realizations__title {
+      margin-bottom: 20px;
+      font-size: 30px;
+      line-height: 36px;
+      font-weight: 300;
+      color: $colorTextB;
+      font-family: $fontTitle;
+      text-align: center;
+    }
+  }
+
+  .video__frame {
+    max-width: 854px;
+    //border-radius: 12px;
+    box-shadow: 1px 1px 10px 3px $colorText;
+  }
+}
+
+@media (max-width: 950px) {
+  article.video {
+
+    .video__frame {
+      max-width: 85%;
+    }
+  }
+}
