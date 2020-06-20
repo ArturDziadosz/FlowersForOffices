@@ -92,103 +92,127 @@ class Offer extends Component {
         <article className="container" name={"offer"}>
           <div className="row row--offer">
 
-            <Link to={"offer"} spy={true} smooth={true} duration={1000} offset={this.state.tightScreen ? -60 : -140} className="col-4"
+            <Link to={"offer"} spy={true} smooth={true} duration={1000} offset={this.state.tightScreen ? -60 : -140}
+                  className="col-4"
                   onClick={this.state.tightScreen ? this.handleBiggerColumn : this.handleBigger} id={"firstOffer"}>
 
               <div className="article__img"/>
-              <h3 className="article__title">FLORYSTYKA OKOLICZNOŚCIOWA</h3>
-              <p className="article__text">Oferujemy niepowtarzalne aranżacje kwiatowe, pasujące do charakteru i
-                okoliczności przyjęcia. Zadbamy, aby ten dzień był dla Was niezapomniany.</p>
+              <h3 className="article__title">ROŚLINY ZIELONE</h3>
+              <p className="article__text">Oferujemy niepowtarzalne zielone i ekologiczne przestrzenie w biurach i
+                domach. Zielone otoczenie
+                powoduje, że stajemy się szczęśliwsi, zdrowsi i efektywniejsi.</p>
               <br/>
               <div className={"article__box"} style={this.state.tightScreen ? {display: `block`} : {}}>
                 <div>
-                  <p className="article__text">Pracownia Kwiatostan proponuje rozwiązania na każdą okazję, oferujemy
-                    oprawę florystyczną imprez okolicznościowych, takich jak:</p>
-                  <ul className="article__text article__text--list">
-                    <li>Baby Shower</li>
-                    <li>Chrzciny</li>
-                    <li>Urodziny</li>
-                    <li>Komunie Święte</li>
-                    <li>Jubileusze</li>
-                    <li>Inne</li>
-                  </ul>
+                  <p className="article__text">Dostarczamy kwiaty i rośliny do Twojego biura bądź domu. Otoczenie, w
+                    jakim przebywamy, jego
+                    przyjazny zielony wygląd ma ogromny wpływ na naszą efektywność i zdrowie. Przestrzeń pełna roślin
+                    zmniejsza napięcie i stres. Tworzymy ekologiczne i antysmogowe otoczenie . Czy wiesz że po wielu
+                    latach badań, specjaliści z NASA opublikowali w raporcie &quot;Interior Landscape Plants for Indoor
+                    Air
+                    Pollution Abatement&quot; listę roślin doniczkowych, które skutecznie oczyszczają powietrze z
+                    zanieczyszczeń.</p>
+                  {/*<ul className="article__text article__text--list">*/}
+                  {/*  <li>Baby Shower</li>*/}
+                  {/*  <li>Chrzciny</li>*/}
+                  {/*  <li>Urodziny</li>*/}
+                  {/*  <li>Komunie Święte</li>*/}
+                  {/*  <li>Jubileusze</li>*/}
+                  {/*  <li>Inne</li>*/}
+                  {/*</ul>*/}
                 </div>
-                {this.state.tightScreen ? <br/> : ""}
+                <br/>
                 <div>
-                  <p className="article__text">Jest również wiele okazji, by obdarować bliską nam osobę pięknymi
-                    kwiatami, w naszej ofercie znajdziecie:</p>
-                  <ul className="article__text article__text--list">
-                    <li>Bukiety okolicznościowe</li>
-                    <li>Flower Box, kosze i kompozycje kwiatowe</li>
-                    <li>Wianki</li>
-                    <li>Dekoracje świąteczne</li>
-                  </ul>
+                  <p className="article__text article__text--underlined">Jak działamy</p>
+                  <ol className="article__text article__text--list">
+                    <li>Pierwsze spotkanie to ocena warunków i możliwości lokalizacji roślin z uwzględnieniem
+                      indywidualnych preferencji klienta. Ustalamy dobór kolorystyki i rodzaj pojemników na rośliny.
+                    </li>
+                    <li>Na podstawie uzyskanych informacji przygotowujemy kosztorys przedsięwzięcia</li>
+                    <li>Przygotowujemy rośliny w naszej Pracowni, gdzie dobieramy rośliny, nasadzamy je do wybranych
+                      pojemników.
+                    </li>
+                    <li>Przygotowane rośliny dostarczamy pod wskazane miejsce i zajmujemy się ich aranżacją w
+                      przestrzeni.
+                    </li>
+                    <li>Dostarczamy instrukcję podlewania i pielęgnacji roślin i oferujemy usługę serwisu, obejmującą
+                      kompleksową pielęgnację roślin ze szczególnym uwzględnieniem nawożenia, uzupełnienia i wymiany
+                      podłoża.
+                    </li>
+                  </ol>
                 </div>
               </div>
               <br/>
               <p className="article__text">Zapraszam do kontaktu</p>
             </Link>
-            <Link to={"offer"} spy={true} smooth={true} duration={1000} offset={this.state.tightScreen ? 380 : -140} className="col-4"
+            <Link to={"offer"} spy={true} smooth={true} duration={1000} offset={this.state.tightScreen ? 380 : -140}
+                  className="col-4"
                   onClick={this.state.tightScreen ? this.handleBiggerColumn : this.handleBigger} id={"secondOffer"}>
 
               <div className="article__img"/>
-              <h3 className="article__title">FLORYSTYKA ŚLUBNA</h3>
-              <p className="article__text">Zajmujemy się kompleksową oprawą florystyczną ślubu. Stworzymy dla Was
-                niezapomniane dekoracje w najważniejszym momencie życia.</p>
+              <h3 className="article__title">SERWIS I PIELĘGNACJA ZIELENI</h3>
+              <p className="article__text">Zaopiekujemy się roślinami zielonymi w biurach i innych przestrzeniach.
+                Zadbamy o twoje rośliny
+                zarówno doraźnie jak i cyklicznie.</p>
               <br/>
 
-              <p className="article__text">Ślub to uroczystość jedyna w swoim rodzaju. Każdy chce, aby ten dzień był
-                wyjątkowy, niepowtarzalny i magiczny. Pracownia Kwiatostan stworzy dla Was dekoracje kwiatowe, które
-                będą pięknym dopełnieniem tego dnia.</p>
-              <br/>
+              {/*<p className="article__text">Ślub to uroczystość jedyna w swoim rodzaju. Każdy chce, aby ten dzień był*/}
+              {/*  wyjątkowy, niepowtarzalny i magiczny. Pracownia Kwiatostan stworzy dla Was dekoracje kwiatowe, które*/}
+              {/*  będą pięknym dopełnieniem tego dnia.</p>*/}
+              {/*<br/>*/}
               <div className={"article__box"} style={this.state.tightScreen ? {display: `block`} : {}}>
-                <div>
-                  <p className="article__text">Oferujemy kompleksową florystykę ślubną:</p>
-                  <ul className="article__text article__text--list">
-                    <li>Bukiety ślubne</li>
-                    <li>Dekoracje sal weselnych</li>
-                    <li>Kwiaty na wesele</li>
-                    <li>Dekoracje samochodów</li>
-                    <li>Dekoracje kościołów</li>
-                    <li>Dekoracje ślubne</li>
-                    <li>Podziękowania dla rodziców</li>
-                  </ul>
-                </div>
-                {this.state.tightScreen ? <br/> : ""}
-                <div>
+                {/*<div>*/}
+                <p className="article__text">Nasza usługa serwisu zieleni polega na cyklicznym rozsadzaniu, przesadzaniu
+                  roślin w większe donice
+                  czy wymianie wyjałowionej ziemi. Usługa może mieć charakter stałej lub cyklicznej pielęgnacji roślin i
+                  kwiatów biurowych. Serwis zieleni obejmuje:</p>
+                <ul className="article__text article__text--list">
+                  <li>wymianę roślin o złej kondycji,</li>
+                  <li>podlewanie i nawożenie roślin i kwiatów,</li>
+                  <li>czyszczenie liści, zraszanie roślin,</li>
+                  <li>przycinanie roślin, dokładanie lub wymiana podłoża,</li>
+                  <li>drenaż i rozsadzenie,</li>
+                  <li>ekspozycja roślin na światło,</li>
+                  <li>zwalczania chorób.</li>
+                </ul>
+                {/*</div>*/}
+                {/*{this.state.tightScreen ? <br/> : ""}*/}
+                {/*<div>*/}
 
-                  <p className="article__text">Zapraszam na bezpłatne konsultacje, po których Klient otrzymuje
-                    propozycje
-                    oferty z zakresem prac. Po akceptacji projektu, zostaje podpisana umowa oraz rezerwujemy termin w
-                    którym odbywać będzie się uroczystość.</p>
-                </div>
+                {/*<p className="article__text">Zapraszam na bezpłatne konsultacje, po których Klient otrzymuje*/}
+                {/*  propozycje*/}
+                {/*  oferty z zakresem prac. Po akceptacji projektu, zostaje podpisana umowa oraz rezerwujemy termin w*/}
+                {/*  którym odbywać będzie się uroczystość.</p>*/}
+                {/*</div>*/}
               </div>
               <br/>
               <p className="article__text">Zapraszam do kontaktu</p>
             </Link>
-            <Link to={"offer"} spy={true} smooth={true} duration={1000} offset={this.state.tightScreen ? 820 : -140} className="col-4"
+            <Link to={"offer"} spy={true} smooth={true} duration={1000} offset={this.state.tightScreen ? 820 : -140}
+                  className="col-4"
                   onClick={this.state.tightScreen ? this.handleBiggerColumn : this.handleBigger} id={"thirdOffer"}>
               <div className="article__img"/>
-              <h3 className="article__title">FLORYSTYKA DLA DOMU I FIRMY</h3>
-              <p className="article__text">Organizujemy przestrzeń, gdzie nie powinno zabraknąć kwiatów, które wprowadzą
-                wyjątkową atmosferę, świeżość i mnóstwo barw.</p>
+              <h3 className="article__title">KWIATY CIĘTE I DEKORACJE OKOLICZNOŚCIOWE</h3>
+              <p className="article__text">Zapewniamy systematyczną dostawę kwiatów ciętych do biur, hoteli, sklepów i
+                domów. Tworzymy
+                dekoracje świąteczne i evantowe.</p>
               <br/>
               <div className={"article__box"} style={this.state.tightScreen ? {display: `block`} : {}}>
-                <div>
-
-                  <p className="article__text">Pracownia Kwiatostan świadczy usługi florystyczne dla klientów indywidualnych oraz firmowych. Proponujemy dostawę świeżych kwiatów do domu, biura lub restauracji co najmniej raz w tygodniu.</p>
-                </div>
-                {this.state.tightScreen ? <br/> : ""}
-                <div>
-                  <p className="article__text">Dodatkowo naszym Klientom oferujemy:</p>
-                  <ul className="article__text article__text--list">
-                    <li>Kompozycje kwiatowe do recepcji, restauracji, gabinetu, wnętrz hoteli</li>
-                    <li>Aranżacje mieszkań prywatnych</li>
-                    <li>Dostawa świeżych kwiatów</li>
-                    <li>Dekoracje świąteczne i sezonowe</li>
-                    <li>Oprawę florystyczną imprez firmowych tj., wigilia firmowa, bankiety</li>
-                  </ul>
-                </div>
+                {/*<div>*/}
+                <p className="article__text">Dostarczmy regularnie kwiaty cięte i kompozycje kwiatowe i dostarczmy je we
+                  wskazane miejsce.
+                  Współpracujemy zarówno w ramach stałej obsługi jak i na indywidualne zlecenia. Dodatkowo
+                  realizujemy okazjonalne zamówienia na dekorację świąteczne takie jak:</p>
+                <ul className="article__text article__text--list">
+                  <li>śluby i wesela,</li>
+                  <li>specjalne rodzinne okazje,</li>
+                  <li>spotkania biznesowe,</li>
+                  <li>targi i konferencje,</li>
+                  <li>dekoracje świąteczne,</li>
+                  <li>dzień kobiet,</li>
+                  <li>i wiele, wiele innych.</li>
+                </ul>
+                {/*</div>*/}
 
               </div>
               <br/>
