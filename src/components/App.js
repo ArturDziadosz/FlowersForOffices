@@ -6,6 +6,7 @@ import Offer from "./Offer";
 import Quote from "./Quote";
 import About from "./About";
 import Realizations from "./Realizations";
+import Video from "./Video";
 import Contact from "./Contact";
 import PrivacyPolicy from "./PrivacyPolicy";
 
@@ -35,7 +36,7 @@ class App extends Component {
         <div className="start" style={this.state.intro ? {display: "flex"} : {display: "none"}}>
           <div className="logo"/>
         </div>
-        <ContactBar />
+        <ContactBar/>
         <Header/>
         <Hero/>
         <main>
@@ -44,8 +45,9 @@ class App extends Component {
           <About/>
           <Realizations name={"realization"}/>
         </main>
+        <Video/>
         <Contact name={"contact"}/>
-        <PrivacyPolicy />
+        <PrivacyPolicy/>
       </>
     )
   }
