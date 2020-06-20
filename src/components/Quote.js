@@ -9,11 +9,13 @@ class Quote extends Component {
         <article className="quote">
           <section className="container">
             <div className="row">
-              <p className="quote__text">"NAJLEPSZYCH I NAJPIĘKNIEJSZYCH RZECZY NA ŚWIECIE, NIE MOŻNA ANI ZOBACZYĆ, ANI DOTKNĄĆ. TRZEBA JE POCZUĆ SERCEM."
+              <p className="quote__text">„BĄDŹ ZMIANĄ KTÓRĄ PRAGNIESZ UJRZEĆ W ŚWIECIE”
               </p>
-              <p className="quote__author">HELLEN KELLER
+              <p className="quote__author">mahatma gandhi
               </p>
-              <Link to={"realization"} spy={true} smooth={true} duration={1000} offset={-130} className={"linkButton"}><div className="quoteButton">ZOBACZ REALIZACJE</div></Link>
+              <Link to={"realization"} spy={true} smooth={true} duration={1000} offset={-130} className={"linkButton"}>
+                <div className="quoteButton">ZOBACZ REALIZACJE</div>
+              </Link>
             </div>
           </section>
         </article>
