@@ -12,8 +12,9 @@ class Contact extends Component {
               <p className="contact__text">Skontaktuj się z nami</p>
               <div className="contact__mediaBox">
                 <div className="contact__mediaBox__standardMedia">
-                  <p className="standardMedia"><i className="fas fa-mobile-alt"/>+ 48 724 722 606 </p>
-                  <p className="standardMedia"><i className="fas fa-envelope"/><a href={"mailto:kwiatostan.biuro@gmail.com"}>kwiatostan.biuro@gmail.com</a></p>
+                  <p className="standardMedia"><i className="fas fa-mobile-alt"/>+ 48 602 415 025 </p>
+                  <p className="standardMedia"><i className="fas fa-envelope"/><a
+                    href={"mailto:kwiatostan.biuro@gmail.com"}>kwiatostan.biuro@gmail.com</a></p>
                 </div>
                 <div className="contact__mediaBox__socialMedia">
                   <p className="socialMedia"><a href={"https://www.facebook.com/kwiatostanpracowniaflorystyczna"} target={"_blank"}><i className="fab fa-facebook-square"/></a></p>
