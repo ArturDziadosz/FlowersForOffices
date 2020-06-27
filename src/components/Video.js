@@ -16,7 +16,9 @@ class Video extends Component {
                         height={"480"}
                         style={{position: "absolute", left: "0", top: "0", width: "100%", height: "100%"}}
                         frameBorder={"0"}
-                        scrolling={"no"} allowFullScreen={true}/>
+                        scrolling={"no"}
+                        title={"ted"}
+                        allowFullScreen={true}/>
               </div>
 
             </div>

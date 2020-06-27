@@ -15,7 +15,8 @@
 
     .heroBanner__img__logo {
       width: 50%;
-      height: 40vh;
+      height: 35vh;
+      margin-top: -30px;
       background-position: center;
       background-size: contain;
       background-repeat: no-repeat;
@@ -43,7 +44,7 @@
       min-height: 33vh;
 
       .heroBanner__img__logo {
-        height: 25vh;
+        height: 20vh;
       }
     }
   }
