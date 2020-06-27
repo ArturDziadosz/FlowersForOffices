@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "600d83890e717f6468fd693289e0ea87",
+    "revision": "5c032d3a78816641dd689e4b940f3625",
     "url": "./index.html"
   },
   {
-    "revision": "1d4af0c3c5402ceacf91",
-    "url": "./static/css/main.e413e6e7.chunk.css"
+    "revision": "80c324f2b876b1fe3c7d",
+    "url": "./static/css/main.6f260a39.chunk.css"
   },
   {
     "revision": "b94dc4b8c970fbb6c3d7",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "./static/js/2.4826bdca.chunk.js.LICENSE"
   },
   {
-    "revision": "1d4af0c3c5402ceacf91",
-    "url": "./static/js/main.f999f7a0.chunk.js"
+    "revision": "80c324f2b876b1fe3c7d",
+    "url": "./static/js/main.f442a577.chunk.js"
   },
   {
     "revision": "8d61bc40c27b9fd88443",
@@ -28,8 +28,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "./static/media/image0.491d2eaf.jpeg"
   },
   {
-    "revision": "9fa7945c6fbe8f6b7258849b7923472d",
-    "url": "./static/media/image0.9fa7945c.png"
+    "revision": "c59d27b757a42a6c8e6be2f89b25df63",
+    "url": "./static/media/image0.c59d27b7.jpeg"
   },
   {
     "revision": "601639319929bd851ecdb8705168f869",
@@ -40,12 +40,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "./static/media/image1.c42a576a.jpeg"
   },
   {
-    "revision": "5a68406ac40835334306597d8134a8a1",
-    "url": "./static/media/image2.5a68406a.jpeg"
+    "revision": "09920238eb975aeec4667a8555a4f1a1",
+    "url": "./static/media/image2.09920238.jpeg"
   },
   {
-    "revision": "c2b736e488f72bff346e4d717492adb7",
-    "url": "./static/media/image2.c2b736e4.png"
+    "revision": "5a68406ac40835334306597d8134a8a1",
+    "url": "./static/media/image2.5a68406a.jpeg"
   },
   {
     "revision": "d1e10fd900ed8f7db3bfe0b239862b81",
@@ -56,11 +56,19 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "./static/media/image4.bc32d1f3.jpeg"
   },
   {
-    "revision": "c6ad677dba008bf01f2a5168ccc51be4",
-    "url": "./static/media/logo white.c6ad677d.png"
+    "revision": "e74fcd24e3c174d4c29024e73a55857b",
+    "url": "./static/media/logoArturColor.e74fcd24.png"
   },
   {
-    "revision": "5f915c8e991c3f88550296ace10d65c1",
-    "url": "./static/media/logoB2.5f915c8e.png"
+    "revision": "29914740b1f622b41e7432aa55588fb6",
+    "url": "./static/media/logoArturTrans.29914740.png"
+  },
+  {
+    "revision": "9275bdcd894d3ace42359aaf1434254c",
+    "url": "./static/media/logoArturWhite.9275bdcd.png"
+  },
+  {
+    "revision": "79bd30546bc4a46e082f49ba2fac94e6",
+    "url": "./static/media/logoArturWhiteShort.79bd3054.png"
   }
 ]);

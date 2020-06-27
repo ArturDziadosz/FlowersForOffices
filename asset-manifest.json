@@ -1,30 +1,30 @@
 {
   "files": {
-    "main.css": "./static/css/main.e413e6e7.chunk.css",
-    "main.js": "./static/js/main.f999f7a0.chunk.js",
-    "main.js.map": "./static/js/main.f999f7a0.chunk.js.map",
+    "main.css": "./static/css/main.6f260a39.chunk.css",
+    "main.js": "./static/js/main.f442a577.chunk.js",
+    "main.js.map": "./static/js/main.f442a577.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.01d7cba2.js",
     "runtime-main.js.map": "./static/js/runtime-main.01d7cba2.js.map",
     "static/js/2.4826bdca.chunk.js": "./static/js/2.4826bdca.chunk.js",
     "static/js/2.4826bdca.chunk.js.map": "./static/js/2.4826bdca.chunk.js.map",
     "index.html": "./index.html",
-    "precache-manifest.c6c280fc5b0a7e5f5db73b42e97e421a.js": "./precache-manifest.c6c280fc5b0a7e5f5db73b42e97e421a.js",
+    "precache-manifest.22e5a63df856f07c6a07c2d0df3cac07.js": "./precache-manifest.22e5a63df856f07c6a07c2d0df3cac07.js",
     "service-worker.js": "./service-worker.js",
-    "static/css/main.e413e6e7.chunk.css.map": "./static/css/main.e413e6e7.chunk.css.map",
+    "static/css/main.6f260a39.chunk.css.map": "./static/css/main.6f260a39.chunk.css.map",
     "static/js/2.4826bdca.chunk.js.LICENSE": "./static/js/2.4826bdca.chunk.js.LICENSE",
     "static/media/image0.jpeg": "./static/media/image0.491d2eaf.jpeg",
-    "static/media/Hero.scss": "./static/media/image2.c2b736e4.png",
+    "static/media/Hero.scss": "./static/media/logoArturTrans.29914740.png",
     "static/media/image1.jpeg": "./static/media/image1.60163931.jpeg",
     "static/media/Quote.scss": "./static/media/image1.c42a576a.jpeg",
     "static/media/image2.jpeg": "./static/media/image2.5a68406a.jpeg",
     "static/media/Offer.scss": "./static/media/image4.bc32d1f3.jpeg",
-    "static/media/index.scss": "./static/media/logo white.c6ad677d.png",
-    "static/media/Header.scss": "./static/media/logoB2.5f915c8e.png"
+    "static/media/index.scss": "./static/media/logoArturColor.e74fcd24.png",
+    "static/media/Header.scss": "./static/media/logoArturWhiteShort.79bd3054.png"
   },
   "entrypoints": [
     "static/js/runtime-main.01d7cba2.js",
     "static/js/2.4826bdca.chunk.js",
-    "static/css/main.e413e6e7.chunk.css",
-    "static/js/main.f999f7a0.chunk.js"
+    "static/css/main.6f260a39.chunk.css",
+    "static/js/main.f442a577.chunk.js"
   ]
 }
