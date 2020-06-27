@@ -9,16 +9,28 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .heroBanner__img__logo {
+      width: 50%;
+      height: 40vh;
+      background-position: center;
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-image: url("../assets/logoArturTrans.png");
+    }
   }
 
   .heroBanner__img--first {
-    animation: heroBannerImg 5s infinite alternate-reverse cubic-bezier(1,0,0,1);
-    background-image: url("../assets/image0.png");
+    animation: heroBannerImg 5s infinite alternate-reverse cubic-bezier(1, 0, 0, 1);
+    background-image: url("../assets/image0.jpeg");
   }
 
   .heroBanner__img--second {
-    animation: heroBannerImg 5s infinite alternate cubic-bezier(1,0,0,1);
-    background-image: url("../assets/image2.png");
+    animation: heroBannerImg 5s infinite alternate cubic-bezier(1, 0, 0, 1);
+    background-image: url("../assets/image2.jpeg");
   }
 }
 
@@ -29,6 +41,10 @@
 
     .heroBanner__img {
       min-height: 33vh;
+
+      .heroBanner__img__logo {
+        height: 25vh;
+      }
     }
   }
 }

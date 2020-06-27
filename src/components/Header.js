@@ -20,7 +20,7 @@ class Header extends Component {
 
   distanceToTop = () => {
     window.addEventListener("scroll", () => {
-      if (window.scrollY >= 100) {
+      if (window.scrollY >= 200) {
         this.setState({
           topPosition: false
         })
