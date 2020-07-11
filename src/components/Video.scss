@@ -7,6 +7,7 @@ article.video {
   .row {
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 
     .realizations__title {
       margin-bottom: 20px;
@@ -16,6 +17,13 @@ article.video {
       color: $colorTextB;
       font-family: $fontTitle;
       text-align: center;
+    }
+
+    .video__img {
+      background-image: url("../assets/iconcontent.png");
+      width: 200px;
+      height: 80px;
+      margin-bottom: 25px;
     }
   }
 
