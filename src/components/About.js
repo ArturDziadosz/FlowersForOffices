@@ -7,9 +7,17 @@ class About extends Component {
       <>
         <article className="container">
           <div className="row about">
-            <div className="about__img" />
-            <p className="about__title">KWIATOSTAN <span>–</span> PRACOWNIA FLORYSTYCZNA</p>
-            <p className="about__text">Pracownia Kwiatostan powstała z pasji do tworzenia pięknych kompozycji oraz z zamiłowania do kwiatów. Stawiamy przede wszystkim na świeżość kwiatów, dobór najlepszych gatunków oraz estetykę całej dekoracji. Liczy się dla nas zadowolenie naszych Klientów, dlatego troszczymy się o każdy detal, tak aby ta najważniejsza uroczystość w życiu zapadła na długo w ich pamięci. Nasze inspiracje czerpiemy z otoczenia oraz najnowszych trendów, nieustannie poszukujemy możliwości rozwoju i doskonalenia warsztatu.</p>
+            <div className="about__img"/>
+            <p className="about__title">KWIATOSTAN <span>–</span> PRACOWNIA ZIELENI</p>
+            <p className="about__text">Rośliny powodują, że jesteśmy bliżej natury i dają nam poczucie bezpieczeństwa.
+              Mają
+              ogromny wpływ na naszą psychikę, samopoczucie i zdrowie. Dlatego tak ważne jest, aby
+
+              przestrzeń wokół nas była wypełniona roślinami.
+
+              Kwiatostan Pracownia Zieleni powstałam z pasji do natury. Naszą misją jest tworzenie
+
+              zielonych, przyjaznych i zdrowych przestrzeni.</p>
             <p className="about__footer">– To wszystko dla Was –</p>
           </div>
         </article>
