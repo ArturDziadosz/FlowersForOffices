@@ -19,8 +19,7 @@ class Offer extends Component {
       this.setState({
         tightScreen: true
       })
-    }
-    else {
+    } else {
       this.setState({
         tightScreen: false
       })
@@ -37,8 +36,7 @@ class Offer extends Component {
         this.setState({
           tightScreen: true
         })
-      }
-      else {
+      } else {
         this.setState({
           tightScreen: false
         })
@@ -98,10 +96,11 @@ class Offer extends Component {
 
               <div className="article__img"/>
               <h3 className="article__title">ROŚLINY ZIELONE</h3>
-              <p className="article__text">Oferujemy niepowtarzalne zielone i ekologiczne przestrzenie w biurach i
+              <p className="article__text article__subtitle">Oferujemy niepowtarzalne zielone i ekologiczne przestrzenie
+                w biurach i
                 domach. Zielone otoczenie
                 powoduje, że stajemy się szczęśliwsi, zdrowsi i efektywniejsi.</p>
-              <br/>
+              <div className="article__logoImg"/>
               <div className={"article__box"} style={this.state.tightScreen ? {display: `block`} : {}}>
                 <div>
                   <p className="article__text">Dostarczamy kwiaty i rośliny do Twojego biura bądź domu. Otoczenie, w
@@ -143,7 +142,7 @@ class Offer extends Component {
                 </div>
               </div>
               <br/>
-              <p className="article__text">Zapraszam do kontaktu</p>
+              <p className="article__text">Zapraszamy do kontaktu</p>
             </Link>
             <Link to={"offer"} spy={true} smooth={true} duration={1000} offset={this.state.tightScreen ? 380 : -140}
                   className="col-4"
@@ -151,10 +150,12 @@ class Offer extends Component {
 
               <div className="article__img"/>
               <h3 className="article__title">SERWIS I PIELĘGNACJA ZIELENI</h3>
-              <p className="article__text">Zaopiekujemy się roślinami zielonymi w biurach i innych przestrzeniach.
+              <p className="article__text article__subtitle">Zaopiekujemy się roślinami zielonymi w biurach i innych
+                przestrzeniach.
                 Zadbamy o twoje rośliny
                 zarówno doraźnie jak i cyklicznie.</p>
               <br/>
+              <div className="article__logoImg"/>
 
               {/*<p className="article__text">Ślub to uroczystość jedyna w swoim rodzaju. Każdy chce, aby ten dzień był*/}
               {/*  wyjątkowy, niepowtarzalny i magiczny. Pracownia Kwiatostan stworzy dla Was dekoracje kwiatowe, które*/}
@@ -162,18 +163,56 @@ class Offer extends Component {
               {/*<br/>*/}
               <div className={"article__box"} style={this.state.tightScreen ? {display: `block`} : {}}>
                 {/*<div>*/}
-                <p className="article__text">Nasza usługa serwisu zieleni polega na cyklicznym rozsadzaniu, przesadzaniu
-                  roślin w większe donice
-                  czy wymianie wyjałowionej ziemi. Usługa może mieć charakter stałej lub cyklicznej pielęgnacji roślin i
-                  kwiatów biurowych. Serwis zieleni obejmuje:</p>
+                <p className="article__text">Zdrowe rośliny to zdrowe otoczenie. Nasz serwis roślin to więcej niż tylko
+                  podlewanie.
+                  Gwarantujemy nawożenie, odżywki specjalne, dobór lokalizacji roślin z uwzględnieniem poziomu
+                  nasłonecznienia i wilgotności oraz ich czyszczenie. Wiemy o tym, że nie samą wodą żyją rośliny.
+                  Na dostarczone przez nas rośliny w trakcie umowy serwisowej udzielamy gwarancji. Serwis zieleni
+                  obejmuje:</p>
+                <br/>
+                {/*<p className="article__text"></p>*/}
                 <ul className="article__text article__text--list">
-                  <li>wymianę roślin o złej kondycji,</li>
-                  <li>podlewanie i nawożenie roślin i kwiatów,</li>
-                  <li>czyszczenie liści, zraszanie roślin,</li>
-                  <li>przycinanie roślin, dokładanie lub wymiana podłoża,</li>
-                  <li>drenaż i rozsadzenie,</li>
-                  <li>ekspozycja roślin na światło,</li>
-                  <li>zwalczania chorób.</li>
+                  <li>
+                    <span className="material-icons">
+                    filter_vintage
+                    </span>
+                    <span>wymianę roślin o złej kondycji,</span>
+                  </li>
+                  <li>
+                    <span className="material-icons">
+                    filter_vintage
+                    </span>
+                    <span>podlewanie i nawożenie roślin i kwiatów,</span></li>
+                  <li>
+                    <span className="material-icons">
+                    filter_vintage
+                    </span>
+                    <span>czyszczenie liści, zraszanie roślin,</span></li>
+                  <li>
+                    <span className="material-icons">
+                    filter_vintage
+                    </span>
+                    <span>przycinanie roślin, dokładanie lub wymiana podłoża,</span></li>
+                  <li>
+                    <span className="material-icons">
+                    filter_vintage
+                    </span>
+                    <span>drenaż i rozsadzenie,</span></li>
+                  <li>
+                    <span className="material-icons">
+                    filter_vintage
+                    </span>
+                    <span>ekspozycja roślin na światło,</span></li>
+                  <li>
+                    <span className="material-icons">
+                    filter_vintage
+                    </span>
+                    <span>zwalczania chorób,</span></li>
+                  <li>
+                    <span className="material-icons">
+                    filter_vintage
+                    </span>
+                    <span>profilaktyczne zabiegi ochronne.</span></li>
                 </ul>
                 {/*</div>*/}
                 {/*{this.state.tightScreen ? <br/> : ""}*/}
@@ -186,37 +225,65 @@ class Offer extends Component {
                 {/*</div>*/}
               </div>
               <br/>
-              <p className="article__text">Zapraszam do kontaktu</p>
+              <p className="article__text">Zapraszamy do kontaktu</p>
             </Link>
             <Link to={"offer"} spy={true} smooth={true} duration={1000} offset={this.state.tightScreen ? 820 : -140}
                   className="col-4"
                   onClick={this.state.tightScreen ? this.handleBiggerColumn : this.handleBigger} id={"thirdOffer"}>
               <div className="article__img"/>
               <h3 className="article__title">KWIATY CIĘTE I DEKORACJE OKOLICZNOŚCIOWE</h3>
-              <p className="article__text">Zapewniamy systematyczną dostawę kwiatów ciętych do biur, hoteli, sklepów i
+              <p className="article__text article__subtitle">Zapewniamy systematyczną dostawę kwiatów ciętych do biur,
+                hoteli, sklepów i
                 domów. Tworzymy
                 dekoracje świąteczne i evantowe.</p>
               <br/>
+              <div className="article__logoImg"/>
               <div className={"article__box"} style={this.state.tightScreen ? {display: `block`} : {}}>
                 {/*<div>*/}
-                <p className="article__text">Dostarczmy regularnie kwiaty cięte i kompozycje kwiatowe i dostarczmy je we
-                  wskazane miejsce.
-                  Współpracujemy zarówno w ramach stałej obsługi jak i na indywidualne zlecenia. Dodatkowo
-                  realizujemy okazjonalne zamówienia na dekorację świąteczne takie jak:</p>
+                <p className="article__text">Dostarczymy bukiety i kwiaty cięte, flower boxy i inne kompozycie zgodnie z
+                  życzeniem klienta.
+                  Każdy bukiet dopasujemy do wystroju oraz charakteru gabinetu prezesa, sali konferencyjnej czy
+                  recepcji. Współpracujemy w ramach stałej obsługi jak i na indywidualne zlecenia oraz
+                  realizujemy na zamówienie dekoracje takie jak:</p>
+                <br/>
                 <ul className="article__text article__text--list">
-                  <li>śluby i wesela,</li>
-                  <li>specjalne rodzinne okazje,</li>
-                  <li>spotkania biznesowe,</li>
-                  <li>targi i konferencje,</li>
-                  <li>dekoracje świąteczne,</li>
-                  <li>dzień kobiet,</li>
-                  <li>i wiele, wiele innych.</li>
+                  <li>
+                    <span className="material-icons">
+                      local_florist
+                    </span>
+                    <span>dekoracje świąteczne,</span>
+                  </li>
+                  <li>
+                    <span className="material-icons">
+                      local_florist
+                    </span>
+                    <span>spotkania firmowe i biznesowe,</span></li>
+                  <li>
+                    <span className="material-icons">
+                      local_florist
+                    </span>
+                    <span>targi i konferencje,</span></li>
+                  <li>
+                    <span className="material-icons">
+                      local_florist
+                    </span>
+                    <span>dzień kobiet,</span></li>
+                  <li>
+                    <span className="material-icons">
+                      local_florist
+                    </span>
+                    <span>specjalne rodzinne okazje,</span></li>
+                  <li>
+                    <span className="material-icons">
+                      local_florist
+                    </span>
+                    <span>i wiele, wiele innych.</span></li>
                 </ul>
                 {/*</div>*/}
 
               </div>
               <br/>
-              <p className="article__text">Zapraszam do kontaktu</p>
+              <p className="article__text">Zapraszamy do kontaktu</p>
             </Link>
           </div>
         </article>
