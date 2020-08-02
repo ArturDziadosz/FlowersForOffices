@@ -144,11 +144,11 @@ class Offer extends Component {
               <br/>
               <p className="article__text">Zapraszamy do kontaktu</p>
             </Link>
-            <Link to={"offer"} spy={true} smooth={true} duration={1000} offset={this.state.tightScreen ? 400 : -40}
+            <Link to={"offer2"} spy={true} smooth={true} duration={1000} offset={-90}
                   className="col-4"
                   onClick={this.state.tightScreen ? this.handleBiggerColumn : this.handleBigger} id={"secondOffer"}>
 
-              <div className="article__img"/>
+              <div className="article__img" name={"offer2"}/>
               <h3 className="article__title">SERWIS I PIELĘGNACJA ZIELENI</h3>
               <p className="article__text article__subtitle">Zaopiekujemy się roślinami zielonymi w biurach i innych
                 przestrzeniach.
@@ -227,10 +227,10 @@ class Offer extends Component {
               <br/>
               <p className="article__text">Zapraszamy do kontaktu</p>
             </Link>
-            <Link to={"offer"} spy={true} smooth={true} duration={1000} offset={this.state.tightScreen ? 840 : -40}
+            <Link to={"offer3"} spy={true} smooth={true} duration={1000} offset={-90}
                   className="col-4"
                   onClick={this.state.tightScreen ? this.handleBiggerColumn : this.handleBigger} id={"thirdOffer"}>
-              <div className="article__img"/>
+              <div className="article__img" name={"offer3"}/>
               <h3 className="article__title">KWIATY CIĘTE I DEKORACJE OKOLICZNOŚCIOWE</h3>
               <p className="article__text article__subtitle">Zapewniamy systematyczną dostawę kwiatów ciętych do biur,
                 hoteli, sklepów i

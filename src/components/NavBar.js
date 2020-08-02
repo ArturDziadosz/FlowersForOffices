@@ -43,7 +43,7 @@ class NavBar extends Component {
               onClick={this.handleCloseHamburgerMenu}>STRONA GŁÓWNA</Link></li>
             <li
               className={this.state.topPosition ? "nav__list__elem" : "nav__list__elem nav__list__elem--short"} /*onMouseEnter={this.handleExtraMenu} onMouseLeave={this.handleExtraMenu}*/ >
-              <Link to={"offer"} spy={true} smooth={true} duration={1000} offset={-50}
+              <Link to={"offer"} spy={true} smooth={true} duration={1000} offset={-80}
                     onClick={this.handleCloseHamburgerMenu}>OFERTA {/*<i className="fas fa-chevron-down" />*/}</Link>
               {/*              <ul className={"nav__list__more"} style={this.state.extraMenu ? {display: "block"} : {}}>
                 <li className="nav__list__more__child">FLORYSTYKA ŚLUBNA</li>
