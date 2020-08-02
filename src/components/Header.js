@@ -86,7 +86,9 @@ class Header extends Component {
                   <div className={"header__hamburger__bar"}/>
                 </div> : ""}
             </div>
-            {this.state.hamburgerMenuOpen && this.state.tightScreen ? <NavBar hamburgerMenuOpen={this.state.hamburgerMenuOpen} handleParentCloseHamburgerMenu={this.closeHamburgerMenu}/> : ""}
+            {this.state.hamburgerMenuOpen && this.state.tightScreen ?
+              <NavBar topPosition={this.state.topPosition} hamburgerMenuOpen={this.state.hamburgerMenuOpen}
+                      handleParentCloseHamburgerMenu={this.closeHamburgerMenu}/> : ""}
           </section>
         </header>
       </>
