@@ -90,7 +90,7 @@ class Offer extends Component {
         <article className="container" name={"offer"}>
           <div className="row row--offer">
 
-            <Link to={"offer"} spy={true} smooth={true} duration={1000} offset={this.state.tightScreen ? -60 : -140}
+            <Link to={"offer"} spy={true} smooth={true} duration={1000} offset={-40}
                   className="col-4"
                   onClick={this.state.tightScreen ? this.handleBiggerColumn : this.handleBigger} id={"firstOffer"}>
 
@@ -144,7 +144,7 @@ class Offer extends Component {
               <br/>
               <p className="article__text">Zapraszamy do kontaktu</p>
             </Link>
-            <Link to={"offer"} spy={true} smooth={true} duration={1000} offset={this.state.tightScreen ? 380 : -140}
+            <Link to={"offer"} spy={true} smooth={true} duration={1000} offset={this.state.tightScreen ? 400 : -40}
                   className="col-4"
                   onClick={this.state.tightScreen ? this.handleBiggerColumn : this.handleBigger} id={"secondOffer"}>
 
@@ -227,7 +227,7 @@ class Offer extends Component {
               <br/>
               <p className="article__text">Zapraszamy do kontaktu</p>
             </Link>
-            <Link to={"offer"} spy={true} smooth={true} duration={1000} offset={this.state.tightScreen ? 820 : -140}
+            <Link to={"offer"} spy={true} smooth={true} duration={1000} offset={this.state.tightScreen ? 840 : -40}
                   className="col-4"
                   onClick={this.state.tightScreen ? this.handleBiggerColumn : this.handleBigger} id={"thirdOffer"}>
               <div className="article__img"/>
