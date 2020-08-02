@@ -115,10 +115,11 @@
   }
 }
 
-@media (max-width: 450px) {
+@media (max-width: 470px) {
   .nav--hamburger {
     .nav__list {
       flex-direction: column;
+
       .nav__list__elem {
         text-align: center;
 
