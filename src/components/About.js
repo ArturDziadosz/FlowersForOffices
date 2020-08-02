@@ -15,7 +15,7 @@ class About extends Component {
 
               przestrzeń wokół nas była wypełniona roślinami.
 
-              Kwiatostan Pracownia Zieleni powstałam z pasji do natury. Naszą misją jest tworzenie
+              Kwiatostan Pracownia Zieleni powstała z pasji do natury. Naszą misją jest tworzenie
 
               zielonych, przyjaznych i zdrowych przestrzeni.</p>
             <p className="about__footer">– To wszystko dla Was –</p>
