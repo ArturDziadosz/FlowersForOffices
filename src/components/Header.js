@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import {Link} from "react-scroll";
 import NavBar from "./NavBar";
+import ReactDOM from "react-dom";
 import './Header.scss';
 
 class Header extends Component {
@@ -19,8 +20,10 @@ class Header extends Component {
   }
 
   distanceToTop = () => {
+    const node = ReactDOM.findDOMNode(this);
     window.addEventListener("scroll", () => {
-      if (window.scrollY >= 200) {
+      let steadyPosition = node.nextSibling.offsetTop;
+      if (window.scrollY > steadyPosition) {
         this.setState({
           topPosition: false
         })
