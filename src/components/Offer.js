@@ -74,13 +74,21 @@ class Offer extends Component {
   };
 
   handleBiggerColumn = e => {
-    if (e.currentTarget.style.flexBasis === "100%") {
-      e.currentTarget.style.flexBasis = "";
+    if (e.currentTarget.parentElement.style.flexBasis === "100%") {
+      e.currentTarget.parentElement.style.flexBasis = "";
     } else {
       document.querySelectorAll("article.container .row .col-4").forEach(elem => {
         elem.style.flexBasis = "";
       });
-      e.currentTarget.style.flexBasis = "100%";
+      e.currentTarget.parentElement.style.flexBasis = "100%";
+    }
+
+    if (e.currentTarget.classList.contains("fa-angle-double-down")) {
+      e.currentTarget.classList.remove("fa-angle-double-down");
+      e.currentTarget.classList.add("fa-angle-double-up")
+    } else {
+      e.currentTarget.classList.add("fa-angle-double-down");
+      e.currentTarget.classList.remove("fa-angle-double-up")
     }
   };
 
@@ -92,8 +100,9 @@ class Offer extends Component {
 
             <Link to={"offer"} spy={true} smooth={true} duration={1000} offset={-40}
                   className="col-4"
-                  onClick={this.state.tightScreen ? this.handleBiggerColumn : this.handleBigger} id={"firstOffer"}>
+                  onClick={this.state.tightScreen ? null : this.handleBigger} id={"firstOffer"}>
 
+              {this.state.tightScreen ? <i className="fas fa-angle-double-down" onClick={this.handleBiggerColumn}></i> : null}
               <div className="article__img"/>
               <h3 className="article__title">ROŚLINY ZIELONE</h3>
               <p className="article__text article__subtitle">Oferujemy niepowtarzalne zielone i ekologiczne przestrzenie
@@ -146,8 +155,9 @@ class Offer extends Component {
             </Link>
             <Link to={"offer2"} spy={true} smooth={true} duration={1000} offset={-90}
                   className="col-4"
-                  onClick={this.state.tightScreen ? this.handleBiggerColumn : this.handleBigger} id={"secondOffer"}>
+                  onClick={this.state.tightScreen ? null : this.handleBigger} id={"secondOffer"}>
 
+              {this.state.tightScreen ? <i className="fas fa-angle-double-down" onClick={this.handleBiggerColumn}></i> : null}
               <div className="article__img" name={"offer2"}/>
               <h3 className="article__title">SERWIS I PIELĘGNACJA ZIELENI</h3>
               <p className="article__text article__subtitle">Zaopiekujemy się roślinami zielonymi w biurach i innych
@@ -229,7 +239,9 @@ class Offer extends Component {
             </Link>
             <Link to={"offer3"} spy={true} smooth={true} duration={1000} offset={-90}
                   className="col-4"
-                  onClick={this.state.tightScreen ? this.handleBiggerColumn : this.handleBigger} id={"thirdOffer"}>
+                  onClick={this.state.tightScreen ? null : this.handleBigger} id={"thirdOffer"}>
+
+              {this.state.tightScreen ? <i className="fas fa-angle-double-down" onClick={this.handleBiggerColumn}></i> : null}      
               <div className="article__img" name={"offer3"}/>
               <h3 className="article__title">KWIATY CIĘTE I DEKORACJE OKOLICZNOŚCIOWE</h3>
               <p className="article__text article__subtitle">Zapewniamy systematyczną dostawę kwiatów ciętych do biur,
