@@ -25,5 +25,8 @@ yarn-error.log*
 # webStorm
 .idea/
 
+# VSC
+.vscode/
+
 # Client
 /src/clientAssets
