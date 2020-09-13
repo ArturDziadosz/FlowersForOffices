@@ -1,7 +1,7 @@
 # FlowersForOffices
 One Page "Florist for Offices". Online business card of the company.
 
-## Work in progress :)
+## Site is done, but still waiting for photos to add to the gallery.
 
 ### For client version go to:
 ## <a href="http://kwiatostanpracownia.pl/" target="_blank">Florist for Offices</a>
