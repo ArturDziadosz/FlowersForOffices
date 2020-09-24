@@ -83,6 +83,8 @@ class Offer extends Component {
       e.currentTarget.parentElement.style.flexBasis = "100%";
     }
 
+    e.stopPropagation();
+
     if (e.currentTarget.classList.contains("fa-angle-double-down")) {
       e.currentTarget.classList.remove("fa-angle-double-down");
       e.currentTarget.classList.add("fa-angle-double-up")
