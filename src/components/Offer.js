@@ -56,15 +56,15 @@ class Offer extends Component {
         elem.style.animation = "";
         elem.style.left = "0";
       });
-      if (e.currentTarget.getAttribute("id") === "secondOffer") {
+      if (e.currentTarget.dataset.id === "secondOffer") {
         document.querySelectorAll("article.container .row .col-4").forEach(elem => {
           elem.style.left = "0";
         });
-      } else if (e.currentTarget.getAttribute("id") === "thirdOffer") {
+      } else if (e.currentTarget.dataset.id === "thirdOffer") {
         document.querySelectorAll("article.container .row .col-4").forEach(elem => {
           elem.style.left = "-25%";
         });
-      } else if (e.currentTarget.getAttribute("id") === "firstOffer") {
+      } else if (e.currentTarget.dataset.id === "firstOffer") {
         document.querySelectorAll("article.container .row .col-4").forEach(elem => {
           elem.style.left = "25%";
         });
@@ -74,13 +74,13 @@ class Offer extends Component {
   };
 
   handleBiggerColumn = e => {
-    if (e.currentTarget.parentElement.style.flexBasis === "100%") {
-      e.currentTarget.parentElement.style.flexBasis = "";
+    if (e.currentTarget.parentElement.style.flex === "1 0 100%") {
+      e.currentTarget.parentElement.style.flex = "";
     } else {
       document.querySelectorAll("article.container .row .col-4").forEach(elem => {
-        elem.style.flexBasis = "";
+        elem.style.flex = "";
       });
-      e.currentTarget.parentElement.style.flexBasis = "100%";
+      e.currentTarget.parentElement.style.flex = "1 0 100%";
     }
 
     e.stopPropagation();
@@ -102,7 +102,7 @@ class Offer extends Component {
 
             {this.state.tightScreen ? 
 
-              <div className="col-4" id={"firstOffer"}>
+              <div className="col-4" data-id={"firstOffer"}>
                 <i className="fas fa-angle-double-down" onClick={this.handleBiggerColumn}></i>
                 <div className="article__img"/>
                 <h3 className="article__title">ROŚLINY ZIELONE</h3>
@@ -151,7 +151,8 @@ class Offer extends Component {
 
               <Link to={"offer"} spy={true} smooth={true} duration={1000} offset={-40}
                   className="col-4"
-                  onClick={this.handleBigger} id={"firstOffer"}>
+                  onClick={this.handleBigger} 
+                  data-id={"firstOffer"}>
 
                 <div className="article__img"/>
                 <h3 className="article__title">ROŚLINY ZIELONE</h3>
@@ -200,7 +201,7 @@ class Offer extends Component {
 
             {this.state.tightScreen ? 
 
-              <div className="col-4" id={"secondOffer"}>
+              <div className="col-4" data-id={"secondOffer"}>
                 <i className="fas fa-angle-double-down" onClick={this.handleBiggerColumn}></i>
                 <div className="article__img" name={"offer2"}/>
                 <h3 className="article__title">SERWIS I PIELĘGNACJA ZIELENI</h3>
@@ -270,7 +271,7 @@ class Offer extends Component {
 
               <Link to={"offer2"} spy={true} smooth={true} duration={1000} offset={-90}
                   className="col-4"
-                  onClick={this.handleBigger} id={"secondOffer"}>
+                  onClick={this.handleBigger} data-id={"secondOffer"}>
                 <div className="article__img" name={"offer2"}/>
                 <h3 className="article__title">SERWIS I PIELĘGNACJA ZIELENI</h3>
                 <p className="article__text article__subtitle">Zaopiekujemy się roślinami zielonymi w biurach i innych
@@ -339,7 +340,7 @@ class Offer extends Component {
 
             {this.state.tightScreen ? 
 
-              <div className="col-4" id={"thirdOffer"}>
+              <div className="col-4" data-id={"thirdOffer"}>
                 <i className="fas fa-angle-double-down" onClick={this.handleBiggerColumn}></i>     
                 <div className="article__img" name={"offer3"}/>
                 <h3 className="article__title">KWIATY CIĘTE I DEKORACJE OKOLICZNOŚCIOWE</h3>
@@ -398,7 +399,7 @@ class Offer extends Component {
 
               <Link to={"offer3"} spy={true} smooth={true} duration={1000} offset={-90}
                   className="col-4"
-                  onClick={this.handleBigger} id={"thirdOffer"}>
+                  onClick={this.handleBigger} data-id={"thirdOffer"}>
                 <div className="article__img" name={"offer3"}/>
                 <h3 className="article__title">KWIATY CIĘTE I DEKORACJE OKOLICZNOŚCIOWE</h3>
                 <p className="article__text article__subtitle">Zapewniamy systematyczną dostawę kwiatów ciętych do biur,

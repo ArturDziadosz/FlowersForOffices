@@ -14,13 +14,13 @@ article.container {
       margin: 0 15px;
       border-radius: 10px;
       box-shadow: 1px 1px 10px $colorText;
-      transition: 500ms;
+      transition: left 400ms, transform 400ms;
       cursor: pointer;
       position: relative;
 
       &:hover {
         transform: scale(1.05);
-        transition: 500ms;
+        transition: 400ms;
       }
 
       .fa-angle-double-down, .fa-angle-double-up {
