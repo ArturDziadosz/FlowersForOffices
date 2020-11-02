@@ -58,13 +58,17 @@
   0% {
   }
 
-  70% {
+  1% {
+    transform: scale(1);
+  }
+
+  99% {
     flex: 0 0 75%;
   }
 
   100% {
-    flex: 0 0 75%;
     height: auto;
+    flex: 0 0 75%;
     transform: scale(1);
   }
 }
