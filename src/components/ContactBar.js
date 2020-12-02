@@ -13,9 +13,9 @@ class ContactBar extends Component {
                 <p className="standardMedia"><i className="fas fa-envelope"/><a
                   href={"mailto:kwiatostan.biuro@gmail.com"}>kwiatostan.biuro@gmail.com</a></p>
               </div>
-              <p className="socialMedia"><a href={"https://www.facebook.com/kwiatostanpracowniaflorystyczna"}
+              <p className="socialMedia"><a href={"https://www.facebook.com/kwiatostanpracowniazieleni"}
                                             target={"_blank"}><i className="fab fa-facebook-square"/></a><a
-                href={"https://www.instagram.com/kwiatostan_pracownia/"} target={"_blank"}><i
+                href={"https://www.instagram.com/kwiatostan_pracownia_zieleni/"} target={"_blank"}><i
                 className="fab fa-instagram"/></a></p>
             </div>
           </div>
